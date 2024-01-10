@@ -50,8 +50,7 @@
   ],
     "search": [
     {
-      "prompt": "/source/path",
-      "destination": "/destination/path"
+      "prompt": "My game idea is.."
     }
   ],
   "navigation": [
