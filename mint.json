@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Soba",
+    "url": "https://soba.xyz"
   },
   "tabs": [
     {
@@ -50,7 +50,8 @@
   ],
     "search": [
     {
-      "prompt": "my game idea is..."
+      "prompt": "/source/path",
+      "destination": "/destination/path"
     }
   ],
   "navigation": [
