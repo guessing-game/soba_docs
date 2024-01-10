@@ -48,10 +48,10 @@
       "url": "https://mintlify.com/blog"
     }
   ],
-    "search": [
-    {
-      "prompt": "My game idea is.."
-    }
+  "search": [
+  {
+    "prompt": "my search idea"
+  }
   ],
   "navigation": [
     {
