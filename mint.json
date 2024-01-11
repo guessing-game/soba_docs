@@ -11,6 +11,11 @@
 },
   "backgroundImage": "/images/phone_background.png",
   "favicon": "/favicon_new.svg",
+  "topAnchor": {
+    "name": "Home",
+    "icon": "building",
+    "url": "home"
+  },
   "colors": {
     "primary": "#FF6553",
     "light": "#FF855F",
