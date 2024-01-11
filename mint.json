@@ -13,7 +13,7 @@
   "favicon": "/favicon_new.svg",
   "topAnchor": {
     "name": "Home",
-    "icon": "building",
+    "icon": "house",
     "url": "home"
   },
   "colors": {
@@ -49,10 +49,6 @@
     "prompt": "My game idea is.."
   },
   "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["home"]
-    },
     {
       "group": "Essentials",
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
