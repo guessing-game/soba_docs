@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Soba Wiki",
   "logo": {
-    "dark": "/logo/soba_guide.svg",
-    "light": "/logo/soba_guide.svg"
+    "dark": "/logo/soba_wiki.svg",
+    "light": "/logo/soba_wiki.svg"
   },
-  "favicon": "/Soba_Icon_RGB_SobaOrange.svg",
+  "favicon": "/soba_icon_orange.svg",
   "colors": {
     "primary": "#FF6553",
     "light": "#FF855F",
