@@ -6,6 +6,10 @@
     "light": "/logo/soba_wiki.png",
     "href": "https://www.soba.xyz/"
   },
+  "modeToggle": {
+  "default": "dark"
+},
+  "backgroundImage": "/images/phone_background.png",
   "favicon": "/favicon_new.svg",
   "colors": {
     "primary": "#FF6553",
