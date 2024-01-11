@@ -11,11 +11,6 @@
   },
   "backgroundImage": "/images/phone_background.png",
   "favicon": "/favicon_new.svg",
-  "topAnchor": {
-    "name": "Home",
-    "icon": "house",
-    "url": "essentials"
-  },
   "colors": {
     "primary": "#FF6553",
     "light": "#FF855F",
