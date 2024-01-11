@@ -32,12 +32,17 @@
     {
       "name": "Creating Your Game",
       "icon": "screwdriver-wrench",
-      "url": "api-reference"
+      "url": "quickstart"
     },
     {
       "name": "Behavior Editor",
       "icon": "screwdriver-wrench",
       "url": "api-reference"
+    },
+    {
+      "name": "World Building",
+      "icon": "screwdriver-wrench",
+      "url": "essentials"
     },
     {
       "name": "Video Tutorials",
@@ -54,6 +59,10 @@
     "prompt": "My game idea is.."
   },
   "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["quickstart"]
+    },
     {
       "group": "Essentials",
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
