@@ -31,12 +31,12 @@
   "anchors": [
     {
       "name": "Creating Your Game",
-      "icon": "gamepad",
+      "icon": "gamepad-modern",
       "url": "quickstart"
     },
     {
       "name": "Behavior Editor",
-      "icon": "gear-code",
+      "icon": "code",
       "url": "api-reference"
     },
     {
