@@ -3,7 +3,8 @@
   "name": "Soba Wiki",
   "logo": {
     "dark": "/logo/soba_wiki.png",
-    "light": "/logo/soba_wiki.png"
+    "light": "/logo/soba_wiki.png",
+    "href": "https://www.soba.xyz/"
   },
   "favicon": "/favicon_new.svg",
   "colors": {
