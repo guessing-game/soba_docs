@@ -11,9 +11,6 @@
   },
   "backgroundImage": "/images/phone_background.png",
   "favicon": "/favicon_new.svg",
-  "primaryTab": {
-    "name": "GameCreation"
-  },
   "topAnchor": {
     "name": "Home",
     "icon": "house",
