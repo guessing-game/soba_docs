@@ -32,7 +32,7 @@
     {
       "name": "Video Tutorials",
       "icon": "youtube",
-      "url": "https://www.youtube.com/@soba_xyz/videos"
+      "url": "https://mintlify.com/docs"
     },
     {
       "name": "Discord",
@@ -46,7 +46,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["home"]
     },
     {
       "group": "Essentials",
@@ -66,8 +66,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "youtube": "https://www.youtube.com/@soba_xyz/videos",
+    "discord": "https://discord.gg/JVRyTGPEHS",
+    "linkedin": "https://www.linkedin.com/company/sobaxyz"
   }
 }
