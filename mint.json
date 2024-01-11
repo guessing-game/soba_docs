@@ -30,17 +30,8 @@
   },
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Discord",
       "icon": "discord",
-      "color": {
-        "from": "#60D7F4",
-        "to": "#528AF6"
-    },
       "url": "https://discord.gg/JVRyTGPEHS"
     }
   ],
