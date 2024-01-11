@@ -11,6 +11,9 @@
   },
   "backgroundImage": "/images/phone_background.png",
   "favicon": "/favicon_new.svg",
+  "primaryTab": {
+    "name": "GameCreation"
+  },
   "topAnchor": {
     "name": "Home",
     "icon": "house",
@@ -34,6 +37,11 @@
     "url": "https://soba.xyz"
   },
   "anchors": [
+    {
+      "name": "Creating Your Game",
+      "icon": "screwdriver-wrench",
+      "url": "essentials"
+    },
     {
       "name": "Video Tutorials",
       "icon": "youtube",
