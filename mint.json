@@ -27,7 +27,7 @@
   "topAnchor": {
       "name": "Home",
       "icon": "building",
-      "url": "essentials"
+      "url": "https://soba.xyz"
   },
   "topbarCtaButton": {
     "name": "Get Access",
