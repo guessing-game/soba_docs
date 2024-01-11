@@ -5,7 +5,7 @@
     "dark": "/logo/soba_wiki.png",
     "light": "/logo/soba_wiki.png"
   },
-  "favicon": "/favicon_new.png",
+  "favicon": "/favicon_new.svg",
   "colors": {
     "primary": "#FF6553",
     "light": "#FF855F",
