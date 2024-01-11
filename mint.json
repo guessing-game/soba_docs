@@ -2,17 +2,17 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Soba Wiki",
   "logo": {
-    "dark": "/logo/light.svg",
-    "light": "/logo/Soba_Logo_RGB_SobaOrange.svg"
+    "dark": "/logo/soba_guide.svg",
+    "light": "/logo/soba_guide.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/Soba_Icon_RGB_SobaOrange.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#FF6553",
+    "light": "#FF855F",
+    "dark": "#FF4949",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF855F",
+      "to": "#FF4949"
     }
   },
   "topbarLinks": [
