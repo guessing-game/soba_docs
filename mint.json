@@ -31,12 +31,12 @@
   "anchors": [
     {
       "name": "Creating Your Game",
-      "icon": "screwdriver-wrench",
+      "icon": "gamepad",
       "url": "quickstart"
     },
     {
       "name": "Behavior Editor",
-      "icon": "screwdriver-wrench",
+      "icon": "gear-code",
       "url": "api-reference"
     },
     {
