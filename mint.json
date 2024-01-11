@@ -24,11 +24,6 @@
       "to": "#FF4949"
     }
   },
-  "topAnchor": {
-      "name": "Home",
-      "icon": "building",
-      "url": "https://soba.xyz"
-  },
   "topbarCtaButton": {
     "name": "Get Access",
     "url": "https://soba.xyz"
