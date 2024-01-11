@@ -24,22 +24,16 @@
       "to": "#FF4949"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
   "topbarCtaButton": {
-    "name": "Soba",
+    "name": "Get Access",
     "url": "https://soba.xyz"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+//  "tabs": [
+//    {
+//      "name": "API Reference",
+//      "url": "api-reference"
+//    }
+//  ],
   "anchors": [
     {
       "name": "Documentation",
