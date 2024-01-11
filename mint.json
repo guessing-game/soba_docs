@@ -11,6 +11,10 @@
     "primary": "#FF6553",
     "light": "#FF855F",
     "dark": "#FF4949",
+    "background": {
+      "light": "#FBFBFB",
+      "dark": "#1F1F1F"
+    },
     "anchors": {
       "from": "#FF855F",
       "to": "#FF4949"
