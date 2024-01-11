@@ -35,6 +35,11 @@
       "url": "api-reference"
     },
     {
+      "name": "Behavior Editor",
+      "icon": "screwdriver-wrench",
+      "url": "api-reference"
+    },
+    {
       "name": "Video Tutorials",
       "icon": "youtube",
       "url": "https://mintlify.com/docs"
