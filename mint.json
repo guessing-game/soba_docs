@@ -14,7 +14,7 @@
   "topAnchor": {
     "name": "Home",
     "icon": "house",
-    "url": "home"
+    "url": "essentials"
   },
   "colors": {
     "primary": "#FF6553",
