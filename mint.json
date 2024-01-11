@@ -30,6 +30,11 @@
   },
   "anchors": [
     {
+      "name": "Video Tutorials",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/@soba_xyz/videos"
+    },
+    {
       "name": "Discord",
       "icon": "discord",
       "url": "https://discord.gg/JVRyTGPEHS"
