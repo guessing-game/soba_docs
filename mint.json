@@ -59,7 +59,7 @@
             "general",
             {
                 "group": "General",
-                "icon": "house",
+                "icon": "circle-info",
                 "pages": ["general/what-template-should-i-start-with",
                 "general/using-controls",
                 "general/making-sense-of-buttons",
