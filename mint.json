@@ -24,8 +24,10 @@
       "to": "#FF4949"
     }
   },
-  "primaryTab": {
-      "name": "Creating Your Game"
+  "topAnchor": {
+      "name": "Home",
+      "icon": "building",
+      "url": "home"
   },
   "topbarCtaButton": {
     "name": "Get Access",
