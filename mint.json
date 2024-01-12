@@ -29,15 +29,10 @@
     "url": "https://soba.xyz"
   },
   "topAnchor": {
-      "name": "Where it Starts",
+      "name": "Creating Your Game",
       "icon": "discord"
   },
   "anchors": [
-    {
-      "name": "Creating Your Game",
-      "icon": "gamepad-modern",
-      "url": "home"
-    },
     {
       "name": "Behavior Editor",
       "icon": "code",
@@ -60,7 +55,7 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["home"]
+      "pages": ["quickstart"]
     },
     {
       "group": "Essentials",
