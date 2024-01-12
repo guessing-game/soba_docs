@@ -65,12 +65,12 @@
             {
                 "group": "Managing Your Game",
                 "icon": "bars",
-                "pages": ["general/using-controls"]
+                "pages": ["managing-your-game/how-do-i-save-my-game"]
             },
             {
                 "group": "World building",
                 "icon": "map-location",
-                "pages": ["general/using-controls"]
+                "pages": ["world-building/how-do-i-place-assets"]
             }
         ]
     },
