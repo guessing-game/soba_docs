@@ -31,7 +31,7 @@
   "topAnchor": {
       "name": "Where it Starts",
       "icon": "discord",
-      "url": "https://soba.xyz"
+      "pages": ["quickstart"]
   },
   "anchors": [
     {
