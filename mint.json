@@ -24,6 +24,9 @@
       "to": "#FF4949"
     }
   },
+  "primaryTab": {
+      "name": "Home"
+  },
   "topbarCtaButton": {
     "name": "Get Access",
     "url": "https://soba.xyz"
