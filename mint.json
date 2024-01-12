@@ -54,9 +54,13 @@
   },
   "navigation": [
     {
+      "group": "API Documentation",
+      "pages": ["api-reference/introduction"]
+    },
+    {
         "group": "Documentation",
         "pages": [
-            "general", "general1",
+            "general",
             {
                 "group": "General",
                 "icon": "house",
