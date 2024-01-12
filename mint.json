@@ -59,7 +59,7 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials"]
+      "pages": ["essentials/code", "essentials/markdown"]
     },
     {
       "group": "API Documentation",
