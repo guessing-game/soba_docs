@@ -54,10 +54,6 @@
   },
   "navigation": [
     {
-      "group": "API Documentation",
-      "pages": ["introduction"]
-    },
-    {
         "group": "Documentation",
         "pages": [
             "general",
