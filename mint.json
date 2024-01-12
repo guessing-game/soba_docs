@@ -65,7 +65,7 @@
             {
                 "group": "Managing Your Game",
                 "icon": "bars",
-                "pages": ["managing-your-game/how-do-i-save-my-game"]
+                "pages": ["general/how-do-i-save-my-game"]
             },
             {
                 "group": "World building",
