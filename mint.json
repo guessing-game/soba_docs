@@ -28,6 +28,10 @@
     "name": "Get Access",
     "url": "https://soba.xyz"
   },
+  "topAnchor": {
+      "name": "Where it Starts",
+      "icon": "discord"
+  },
   "anchors": [
     {
       "name": "Creating Your Game",
@@ -52,11 +56,6 @@
   ],
   "search": {
     "prompt": "My game idea is.."
-  },
-  "topAnchor": {
-      "name": "Where it Starts",
-      "icon": "discord",
-      "url": "quickstart"
   },
   "navigation": [
     {
