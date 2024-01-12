@@ -60,22 +60,17 @@
             {
                 "group": "General",
                 "icon": "house",
-                "pages": ["general/what-are-triggers", "essentials/using-controls.mdx"]
+                "pages": ["general/what-are-triggers", "general/using-controls.mdx"]
             },
             {
-                "group": "General1",
-                "icon": "house",
-                "pages": ["general/what-are-triggers", "essentials/using-controls.mdx"]
-            }
-        ]
-    },
-    {
-        "group": "Essentials",
-        "pages": [
-            "essentials",
+                "group": "Managing Your Game",
+                "icon": "bars",
+                "pages": ["general/what-are-triggers", "general/using-controls.mdx"]
+            },
             {
-                "group": "Nested Reference Pages",
-                "pages": ["essentials/code", "essentials/markdown"]
+                "group": "World building",
+                "icon": "map-location",
+                "pages": ["general/what-are-triggers", "general/using-controls.mdx"]
             }
         ]
     },
