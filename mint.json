@@ -60,17 +60,17 @@
             {
                 "group": "General",
                 "icon": "house",
-                "pages": ["general/what-are-triggers", "general/using-controls.mdx"]
+                "pages": ["general/what-are-triggers", "general/using-controls"]
             },
             {
                 "group": "Managing Your Game",
-                "icon": "bars",
-                "pages": ["general/what-are-triggers", "general/using-controls.mdx"]
+                "icon": "screwdriver-wrench",
+                "pages": ["general/what-are-triggers", "general/using-controls"]
             },
             {
                 "group": "World building",
                 "icon": "map-location",
-                "pages": ["general/what-are-triggers", "general/using-controls.mdx"]
+                "pages": ["general/what-are-triggers", "general/using-controls"]
             }
         ]
     },
