@@ -25,7 +25,7 @@
     }
   },
   "primaryTab": {
-      "name": "Home"
+      "name": "quickstart"
   },
   "topbarCtaButton": {
     "name": "Get Access",
