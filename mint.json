@@ -64,13 +64,13 @@
             },
             {
                 "group": "Managing Your Game",
-                "icon": "screwdriver-wrench",
-                "pages": ["general/what-are-triggers", "general/using-controls"]
+                "icon": "bars",
+                "pages": ["general/using-controls"]
             },
             {
                 "group": "World building",
                 "icon": "map-location",
-                "pages": ["general/what-are-triggers", "general/using-controls"]
+                "pages": ["general/using-controls"]
             }
         ]
     },
