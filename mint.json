@@ -59,10 +59,11 @@
             "general",
             {
                 "group": "General",
+                "icon": "house",
                 "pages": ["general/what-are-triggers", "essentials/using-controls.mdx"]
             }
-        ]
-    },
+        ] 
+      },
     {
         "group": "Essentials",
         "pages": [
