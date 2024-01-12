@@ -60,12 +60,12 @@
             {
                 "group": "General",
                 "icon": "house",
-                "pages": ["general/what-are-triggers", "general/using-controls"]
+                "pages": ["general/what-template-should-i-start-with", "general/using-controls"]
             },
             {
                 "group": "Managing Your Game",
                 "icon": "bars",
-                "pages": ["general/how-do-i-save-my-game"]
+                "pages": ["managing-your-game/how-do-i-save-my-game"]
             },
             {
                 "group": "World building",
