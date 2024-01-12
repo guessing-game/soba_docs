@@ -58,8 +58,14 @@
       "pages": ["quickstart"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/code", "essentials/markdown"]
+        "group": "Essentials",
+        "pages": [
+            "essentials",
+            {
+                "group": "Nested Reference Pages",
+                "pages": ["essentials/code", "essentials/markdown"]
+            }
+        ]
     },
     {
       "group": "API Documentation",
