@@ -56,14 +56,19 @@
     {
         "group": "Documentation",
         "pages": [
-            "general",
+            "general", "general1",
             {
                 "group": "General",
                 "icon": "house",
                 "pages": ["general/what-are-triggers", "essentials/using-controls.mdx"]
+            },
+            {
+                "group": "General1",
+                "icon": "house",
+                "pages": ["general/what-are-triggers", "essentials/using-controls.mdx"]
             }
         ]
-      },
+    },
     {
         "group": "Essentials",
         "pages": [
