@@ -30,8 +30,7 @@
   },
   "topAnchor": {
       "name": "Where it Starts",
-      "icon": "discord",
-      "pages": ["quickstart"]
+      "icon": "discord"
   },
   "anchors": [
     {
