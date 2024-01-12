@@ -54,8 +54,14 @@
   },
   "navigation": [
     {
-      "group": "Getting Started",
-      "pages": ["quickstart"]
+        "group": "Documentation",
+        "pages": [
+            "general",
+            {
+                "group": "General",
+                "pages": ["general/what-are-triggers", "essentials/using-controls.mdx"]
+            }
+        ]
     },
     {
         "group": "Essentials",
