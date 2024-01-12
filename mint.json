@@ -60,7 +60,12 @@
             {
                 "group": "General",
                 "icon": "house",
-                "pages": ["general/what-template-should-i-start-with", "general/using-controls"]
+                "pages": ["general/what-template-should-i-start-with",
+                "general/using-controls",
+                "general/making-sense-of-buttons",
+                "general/what-i-need-to-know",
+                "general/what-i-need-to-know",
+                "general/how-can-i-add-mechanics"]
             },
             {
                 "group": "Managing Your Game",
