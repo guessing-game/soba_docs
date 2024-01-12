@@ -63,6 +63,17 @@
                 "pages": ["general/what-are-triggers", "essentials/using-controls.mdx"]
             }
         ]
+      },
+      {
+        [
+            "general",
+            {
+                "group": "Managing Your Game",
+                "icon": "house",
+                "pages": ["managing-your-game/how-do-i-save-my-game"]
+            }
+        ]
+      }
     },
     {
         "group": "Essentials",
