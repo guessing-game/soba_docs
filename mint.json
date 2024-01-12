@@ -24,11 +24,6 @@
       "to": "#FF4949"
     }
   },
-  "topAnchor": {
-      "name": "Home",
-      "icon": "building",
-      "url": "home"
-  },
   "topbarCtaButton": {
     "name": "Get Access",
     "url": "https://soba.xyz"
@@ -57,6 +52,11 @@
   ],
   "search": {
     "prompt": "My game idea is.."
+  },
+  "topAnchor": {
+      "name": "Home",
+      "icon": "building",
+      "url": "quickstart"
   },
   "navigation": [
     {
