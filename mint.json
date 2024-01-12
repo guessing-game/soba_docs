@@ -60,7 +60,7 @@
             {
                 "group": "General",
                 "icon": "house",
-                "pages": ["general/what-template-should-i-start-with?", "general/using-controls"]
+                "pages": ["general/what-template-should-i-start-with", "general/using-controls"]
             },
             {
                 "group": "Managing Your Game",
