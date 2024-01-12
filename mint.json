@@ -54,8 +54,8 @@
     "prompt": "My game idea is.."
   },
   "topAnchor": {
-      "name": "Home",
-      "icon": "building",
+      "name": "Where it Starts",
+      "icon": "discord",
       "url": "quickstart"
   },
   "navigation": [
