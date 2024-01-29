@@ -1,35 +1,29 @@
 ---
 title: 'How to create a timer/countdown'
-description: 'Learn how to add a countdown to your game!'
+description: ''
 ---
 
 ## What is a timer (or countdown)?
 
 A "countdown" mechanic in game design refers to a mechanic that has a timer or a time limit, adding a sense of urgency and challenge to the game. For example, a countdown timer can be displayed on your Soba game to require the player to complete a task within a certain time, and if the timer reaches zero, it may trigger an ‘End Game’ node.
 
-<img height="200" src="https://i.imgur.com/x8Dgygb.png" />
+<img height="50" src="https://i.imgur.com/x8Dgygb.png" />
 
+### How to add a countdown to my game?
 
-### Edit and preview
+<Accordion title="1-3: The first steps">
+    1. https://www.notion.so/goodgameinc/How-to-create-a-timer-countdown-3a8cb49b0e2f47c88aeb2704423fa8ec
+    2. With the object selected, click on the “Details” button to the left of your screen.
+       <img height="50" src="https://i.imgur.com/jMSZzP8.png" />
+    3. In the Details panel, click “Add Behavior”.
+</Accordion>
 
-<AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
+4. Decide what will trigger the behavior. This could be an action like a collision, an interaction, or an event. Select a “Trigger” box and drag it into the editor.
+5. Navigate to the “Effects” section. Here, choose the countdown block you want your asset to perform when triggered. For example, you might select “Start Countdown” to create some sense of urgency after a player touches an object. You also have other countdown options, such as Stop, Adjust, Pause, and Resume. Trigger them to tweak your countdown mechanic needs!
+  <img height="50" src="https://i.imgur.com/lZPNxqk.png" />
+6. Exit the Behavior Editor, playtest and ensure it works as expected!
+💡 Make sure to add a ‘custom graph’ to your countdown block. This connects the countdown result with specific players in your game. The example below picks the ‘first player’ on the custom graph, meaning that only this player will be affected by the countdown.
+  <img height="50" src="https://i.imgur.com/auOEI1d.png" />
 
 ### Deploy your changes
 
@@ -65,7 +59,6 @@ Add content directly in your files with MDX syntax and React components. You can
 <Card
   title="Add API Endpoints"
   icon="square-code"
-  href="/api-playground/configuration"
 >
   Implement your OpenAPI spec and enable API user interaction.
 </Card>
