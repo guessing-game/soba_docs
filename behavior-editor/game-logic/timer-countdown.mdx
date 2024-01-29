@@ -7,76 +7,39 @@ description: ''
 
 A "countdown" mechanic in game design refers to a mechanic that has a timer or a time limit, adding a sense of urgency and challenge to the game. For example, a countdown timer can be displayed on your Soba game to require the player to complete a task within a certain time, and if the timer reaches zero, it may trigger an ‘End Game’ node.
 
-<img height="200" width="200" noZoom src="https://i.imgur.com/x8Dgygb.png" />
+<p align="center">
+  <img width="400" noZoom src="https://i.imgur.com/x8Dgygb.png" />
+</p>
+<CardGroup cols={3}>
 
+<Card title="Select Object" icon="hand-pointer">
+</Card>
+
+<Card
+  title="Add behavior" icon="square-code">
+</Card>
+
+<Card
+  title="Play with friends!" icon="earth-americas">
+</Card>
+
+</CardGroup>
 ### How to add a countdown to my game?
 
-<Accordion title="1-3: The first steps">
-    1. https://www.notion.so/goodgameinc/How-to-create-a-timer-countdown-3a8cb49b0e2f47c88aeb2704423fa8ec
+<Accordion title="Steps 1 to 3" description="The basics for all behaviors">
+    1. Click on the asset to which you want to add a behavior
     2. With the object selected, click on the “Details” button to the left of your screen.
-      <img height="200" width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" />
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
     3. In the Details panel, click “Add Behavior”.
 </Accordion>
 
 4. Decide what will trigger the behavior. This could be an action like a collision, an interaction, or an event. Select a “Trigger” box and drag it into the editor.
 5. Navigate to the “Effects” section. Here, choose the countdown block you want your asset to perform when triggered. For example, you might select “Start Countdown” to create some sense of urgency after a player touches an object. You also have other countdown options, such as Stop, Adjust, Pause, and Resume. Trigger them to tweak your countdown mechanic needs!
-  <img height="50" src="https://i.imgur.com/lZPNxqk.png" />
+  <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/lZPNxqk.png" />
+      </p>
+  </Accordion>
 6. Exit the Behavior Editor, playtest and ensure it works as expected!
-<Tip> Make sure to add a ‘custom graph’ to your countdown block. This connects the countdown result with specific players in your game. The example below picks the ‘first player’ on the custom graph, meaning that only this player will be affected by the countdown. </Tip>
-  <img height="50" src="https://i.imgur.com/auOEI1d.png" />
-
-### Deploy your changes
-
-<AccordionGroup>
-
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
-
-</AccordionGroup>
-
-## Update your docs
-
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
-
-<CardGroup>
-
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
-
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
-
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
-
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
-
-</CardGroup>
+<Tip> Make sure to add a ‘custom graph’ to your countdown block. This connects the countdown result with specific players in your game. The example below picks the ‘first player’ on the custom graph, meaning that only this player will be affected by the countdown. <img width="400" noZoom src="https://i.imgur.com/auOEI1d.png" /></Tip>
