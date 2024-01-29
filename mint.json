@@ -80,6 +80,7 @@
     },
     {
       "group": "",
+      "icon": "circle-info",
       "pages": ["video-tutorials/intro"]
     },
     {
