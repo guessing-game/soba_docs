@@ -30,7 +30,8 @@
   },
   "topAnchor": {
       "name": "Getting Started",
-      "icon": "info"
+      "icon": "flag-checkered",
+      "iconType": "duotone"
   },
   "anchors": [
     {
@@ -41,6 +42,7 @@
     {
       "name": "Behavior Editor",
       "icon": "code",
+      "iconType": "solid",
       "url": "behavior-editor"
     },
     {
@@ -65,16 +67,19 @@
             {
                 "group": "Getting Started",
                 "icon": "flag-checkered",
+                "iconType": "duotone",
                 "pages": ["getting-started/getting-started/quick-start"]
             },
             {
                 "group": "Account",
                 "icon": "user",
+                "iconType": "solid",
                 "pages": ["getting-started/account/delete"]
             },
             {
                 "group": "Play",
                 "icon": "play",
+                "iconType": "solid",
                 "pages": ["getting-started/play/controls"]
             }
         ]
@@ -86,6 +91,7 @@
             {
                 "group": "General",
                 "icon": "info",
+                "iconType": "solid",
                 "pages": ["behavior-editor/general/nodes-list",
                 "behavior-editor/general/triggers",
                 "behavior-editor/general/blocks"]
@@ -119,11 +125,13 @@
             {
                 "group": "General",
                 "icon": "info",
+                "iconType": "solid",
                 "pages": ["creating-your-game/general/what-template"]
             },
             {
                 "group": "Managing Your Game",
-                "icon": "bars",
+                "icon": "wrench",
+                "iconType": "solid",
                 "pages": ["creating-your-game/managing-your-game/save-game"]
             },
             {
