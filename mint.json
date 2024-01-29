@@ -46,7 +46,7 @@
     {
       "name": "Discord",
       "icon": "discord",
-      "url": "https://discord.gg/JVRyTGPEHS"
+      "url": "discord"
     }
   ],
   "search": {
@@ -81,6 +81,10 @@
     {
       "group": "Introduction",
       "pages": ["video-tutorials/intro"]
+    },
+    {
+      "group": "Introduction",
+      "pages": ["discord/intro"]
     },
     {
       "group": "API Documentation",
