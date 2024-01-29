@@ -30,12 +30,12 @@
   },
   "topAnchor": {
       "name": "Getting Started",
-      "icon": "game-console-handheld"
+      "icon": "info"
   },
   "anchors": [
     {
       "name": "Creating Your Game",
-      "icon": "code",
+      "icon": "game-console-handheld",
       "url": "creating-your-game"
     },
     {
@@ -64,17 +64,17 @@
             "getting-started",
             {
                 "group": "Getting Started",
-                "icon": "circle-info",
+                "icon": "flag-checkered",
                 "pages": ["getting-started/getting-started/quick-start"]
             },
             {
                 "group": "Account",
-                "icon": "bars",
+                "icon": "user",
                 "pages": ["getting-started/account/delete"]
             },
             {
                 "group": "Play",
-                "icon": "map-location",
+                "icon": "play",
                 "pages": ["getting-started/play/controls"]
             }
         ]
@@ -85,34 +85,29 @@
             "behavior-editor",
             {
                 "group": "General",
-                "icon": "circle-info",
+                "icon": "info",
                 "pages": ["behavior-editor/general/nodes-list",
                 "behavior-editor/general/triggers",
                 "behavior-editor/general/blocks"]
             },
             {
                 "group": "Managing Behaviors",
-                "icon": "bars",
+                "icon": "file-circle-info",
                 "pages": ["behavior-editor/managing-behaviors/behavior-on-object"]
             },
             {
                 "group": "Game Logic",
-                "icon": "map-location",
+                "icon": "circles-overlap",
                 "pages": ["behavior-editor/managing-behaviors/game-logic"]
             },
             {
-                "group": "Game Logic",
-                "icon": "map-location",
-                "pages": ["behavior-editor/game-logic/timer-countdown"]
-            },
-            {
                 "group": "Logic On Objects",
-                "icon": "map-location",
+                "icon": "cube",
                 "pages": ["behavior-editor/logic-on-objects/clone-objects"]
             },
             {
                 "group": "Working With Players",
-                "icon": "map-location",
+                "icon": "users",
                 "pages": ["behavior-editor/working-with-players/player-speed"]
             }
         ]
@@ -123,7 +118,7 @@
             "creating-your-game",
             {
                 "group": "General",
-                "icon": "circle-info",
+                "icon": "info",
                 "pages": ["creating-your-game/general/what-template"]
             },
             {
