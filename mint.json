@@ -61,6 +61,27 @@
     {
         "group": "Documentation",
         "pages": [
+            "getting-started",
+            {
+                "group": "Getting Started",
+                "icon": "circle-info",
+                "pages": ["getting-started/getting-started/quick-start"]
+            },
+            {
+                "group": "Account",
+                "icon": "bars",
+                "pages": ["getting-started/account/delete"]
+            },
+            {
+                "group": "Play",
+                "icon": "map-location",
+                "pages": ["getting-started/play/controls"]
+            }
+        ]
+    },
+    {
+        "group": "Documentation",
+        "pages": [
             "behavior-editor",
             {
                 "group": "General",
@@ -114,27 +135,6 @@
                 "group": "World Building",
                 "icon": "map-location",
                 "pages": ["creating-your-game/world-building/place-objects"]
-            }
-        ]
-    },
-    {
-        "group": "Documentation",
-        "pages": [
-            "getting-started",
-            {
-                "group": "Getting Started",
-                "icon": "circle-info",
-                "pages": ["getting-started/getting-started/quick-start"]
-            },
-            {
-                "group": "Account",
-                "icon": "bars",
-                "pages": ["getting-started/account/delete"]
-            },
-            {
-                "group": "Play",
-                "icon": "map-location",
-                "pages": ["getting-started/play/controls"]
             }
         ]
     },
