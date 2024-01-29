@@ -41,7 +41,7 @@
     {
       "name": "Video Tutorials",
       "icon": "youtube",
-      "url": "https://www.youtube.com/@soba_xyz/videos"
+      "url": "video-tutorials"
     },
     {
       "name": "Discord",
@@ -77,6 +77,10 @@
                 "pages": ["world-building/how-do-i-place-assets"]
             }
         ]
+    },
+    {
+      "group": "Introduction",
+      "pages": ["video-tutorials/intro"]
     },
     {
       "group": "API Documentation",
