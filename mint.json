@@ -29,14 +29,19 @@
     "url": "https://soba.xyz"
   },
   "topAnchor": {
-      "name": "Creating Your Game",
+      "name": "Getting Started",
       "icon": "game-console-handheld"
   },
   "anchors": [
     {
+      "name": "Creating Your Game",
+      "icon": "code",
+      "url": "getting-started"
+    },
+    {
       "name": "Behavior Editor",
       "icon": "code",
-      "url": "api-reference"
+      "url": "behavior-editor"
     },
     {
       "name": "Video Tutorials",
@@ -56,25 +61,79 @@
     {
         "group": "Documentation",
         "pages": [
-            "general",
+            "behavior-editor",
             {
                 "group": "General",
                 "icon": "circle-info",
-                "pages": ["general/what-template-should-i-start-with",
-                "general/using-controls",
-                "general/making-sense-of-buttons",
-                "general/what-i-need-to-know",
-                "general/how-can-i-add-mechanics"]
+                "pages": ["behavior-editor/general/triggers",
+                "behavior-editor/general/blocks"]
+            },
+            {
+                "group": "Managing Behaviors",
+                "icon": "bars",
+                "pages": ["behavior-editor/managing-behaviors/behavior-on-object"]
+            },
+            {
+                "group": "Game Logic",
+                "icon": "map-location",
+                "pages": ["behavior-editor/managing-behaviors/game-logic"]
+            },
+            {
+                "group": "Game Logic",
+                "icon": "map-location",
+                "pages": ["behavior-editor/game-logic/timer-countdown"]
+            },
+            {
+                "group": "Logic On Objects",
+                "icon": "map-location",
+                "pages": ["behavior-editor/logic-on-objects/clone-objects"]
+            },
+            {
+                "group": "Working With Players",
+                "icon": "map-location",
+                "pages": ["behavior-editor/working-with-players/player-speed"]
+            }
+        ]
+    },
+    {
+        "group": "Documentation",
+        "pages": [
+            "creating-your-game",
+            {
+                "group": "General",
+                "icon": "circle-info",
+                "pages": ["creating-your-game/general/what-template"]
             },
             {
                 "group": "Managing Your Game",
                 "icon": "bars",
-                "pages": ["managing-your-game/how-do-i-save-my-game"]
+                "pages": ["creating-your-game/managing-your-game/save-game"]
             },
             {
-                "group": "World building",
+                "group": "World Building",
                 "icon": "map-location",
-                "pages": ["world-building/how-do-i-place-assets"]
+                "pages": ["creating-your-game/world-building/place-objects"]
+            }
+        ]
+    },
+    {
+        "group": "Documentation",
+        "pages": [
+            "getting-started",
+            {
+                "group": "Getting Started",
+                "icon": "circle-info",
+                "pages": ["getting-started/getting-started/quick-start"]
+            },
+            {
+                "group": "Account",
+                "icon": "bars",
+                "pages": ["getting-started/account/delete"]
+            },
+            {
+                "group": "Play",
+                "icon": "map-location",
+                "pages": ["getting-started/play/controls"]
             }
         ]
     },
@@ -85,18 +144,6 @@
     {
       "group": "",
       "pages": ["discord/intro"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
