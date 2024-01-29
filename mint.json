@@ -104,7 +104,7 @@
             {
                 "group": "Game Logic",
                 "icon": "circles-overlap",
-                "pages": ["behavior-editor/managing-behaviors/game-logic"]
+                "pages": ["behavior-editor/game-logic/timer-countdown"]
             },
             {
                 "group": "Logic On Objects",
