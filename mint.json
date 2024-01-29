@@ -36,7 +36,7 @@
     {
       "name": "Creating Your Game",
       "icon": "code",
-      "url": "getting-started"
+      "url": "creating-your-game"
     },
     {
       "name": "Behavior Editor",
@@ -65,7 +65,8 @@
             {
                 "group": "General",
                 "icon": "circle-info",
-                "pages": ["behavior-editor/general/triggers",
+                "pages": ["behavior-editor/general/nodes-list",
+                "behavior-editor/general/triggers",
                 "behavior-editor/general/blocks"]
             },
             {
