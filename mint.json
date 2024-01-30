@@ -47,11 +47,13 @@
     {
       "name": "Video Tutorials",
       "icon": "youtube",
+      "isDefaultHidden": "true",
       "url": "video-tutorials"
     },
     {
       "name": "Discord",
       "icon": "discord",
+      "isDefaultHidden": "true",
       "url": "discord"
     }
   ],
