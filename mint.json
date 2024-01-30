@@ -35,17 +35,6 @@
   },
   "anchors": [
     {
-      "name": "Creating Your Game",
-      "icon": "game-console-handheld",
-      "url": "creating-your-game"
-    },
-    {
-      "name": "Behavior Editor",
-      "icon": "code",
-      "iconType": "solid",
-      "url": "behavior-editor"
-    },
-    {
       "name": "Video Tutorials",
       "icon": "youtube",
       "url": "video-tutorials"
@@ -61,11 +50,15 @@
   },
   "navigation": [
     {
-        "group": "Documentation",
+      "group": "",
+      "pages": ["home"]
+    },
+    {
+        "group": "Getting Started",
         "pages": [
             "getting-started",
             {
-                "group": "Getting Started",
+                "group": "Overview",
                 "icon": "flag-checkered",
                 "iconType": "duotone",
                 "pages": ["getting-started/getting-started/quick-start"]
@@ -85,7 +78,7 @@
         ]
     },
     {
-        "group": "Documentation",
+        "group": "Behavior Editor",
         "pages": [
             "behavior-editor",
             {
@@ -119,7 +112,7 @@
         ]
     },
     {
-        "group": "Documentation",
+        "group": "Creating Your Game",
         "pages": [
             "creating-your-game",
             {
