@@ -54,7 +54,7 @@
       "pages": ["home"]
     },
     {
-        "group": "Getting Started",
+        "group": "GETTING STARTED",
         "pages": [
             "getting-started",
             {
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "group": "Behavior Editor",
+        "group": "BEHAVIOR EDITOR",
         "pages": [
             "behavior-editor",
             {
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "group": "Creating Your Game",
+        "group": "CREATING YOUR GAME",
         "pages": [
             "creating-your-game",
             {
