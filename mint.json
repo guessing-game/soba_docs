@@ -38,13 +38,13 @@
     "name": "Get Access",
     "url": "https://soba.xyz"
   },
-"anchors": [
-    {
-        "name": "Contact us",
-        "icon": "envelope",
-        "url": "https://mintlify.com/contact-us"
-    }
-]
+  "anchors": [
+      {
+          "name": "Contact us",
+          "icon": "envelope",
+          "url": "https://mintlify.com/contact-us"
+      }
+  ],
   "search": {
     "prompt": "My game idea is.."
   },
