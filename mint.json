@@ -30,7 +30,7 @@
   },
   "topAnchor": {
       "name": "Documentation",
-      "icon": "book-open-cover",
+      "icon": "book",
       "iconType": "duotone"
   },
   "anchors": [
