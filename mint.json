@@ -43,7 +43,13 @@
       "icon": "book",
       "iconType": "duotone"
   },
-  "anchors": [],
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book",
+      "iconType": "duotone"
+    }
+  ],
   "search": {
     "prompt": "My game idea is.."
   },
