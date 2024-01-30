@@ -43,18 +43,6 @@
       "icon": "book",
       "iconType": "duotone"
   },
-  "anchors": [
-    {
-      "name": "Video Tutorials",
-      "icon": "youtube",
-      "url": "video-tutorials"
-    },
-    {
-      "name": "Discord",
-      "icon": "discord",
-      "url": "discord"
-    }
-  ],
   "search": {
     "prompt": "My game idea is.."
   },
