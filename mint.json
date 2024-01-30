@@ -24,6 +24,16 @@
       "to": "#FF4949"
     }
   },
+  "topbarLinks": [
+    {
+    "name": "Video Tutorials",
+    "url": "https://www.youtube.com/@soba_xyz/videos"
+    },
+    {
+    "name": "Discord",
+    "url": "https://discord.com/invite/Uqm8gH2E"
+    }
+  ],
   "topbarCtaButton": {
     "name": "Get Access",
     "url": "https://soba.xyz"
