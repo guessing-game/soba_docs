@@ -29,8 +29,8 @@
     "url": "https://soba.xyz"
   },
   "topAnchor": {
-      "name": "Getting Started",
-      "icon": "flag-checkered",
+      "name": "Documentation",
+      "icon": "book-open-cover",
       "iconType": "duotone"
   },
   "anchors": [
