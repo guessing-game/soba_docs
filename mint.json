@@ -59,7 +59,7 @@
             "getting-started",
             {
                 "group": "Overview",
-                "icon": "flag-checkered",
+                "icon": "flag",
                 "iconType": "regular",
                 "pages": ["getting-started/getting-started/quick-start"]
             },
