@@ -4,7 +4,7 @@
   "logo": {
     "dark": "/logo/soba_wiki.png",
     "light": "/logo/soba_wiki.png",
-    "href": "https://www.soba.xyz/"
+    "href": "https://sobastudios.mintlify.app/home"
   },
   "modeToggle": {
   "default": "dark"
@@ -83,8 +83,8 @@
             "behavior-editor",
             {
                 "group": "General",
-                "icon": "info",
-                "iconType": "solid",
+                "icon": "square-terminal",
+                "iconType": "duotone",
                 "pages": ["behavior-editor/general/nodes-list",
                 "behavior-editor/general/triggers",
                 "behavior-editor/general/blocks"]
@@ -96,7 +96,7 @@
             },
             {
                 "group": "Game Logic",
-                "icon": "circles-overlap",
+                "icon": "flask-round-poison",
                 "pages": ["behavior-editor/game-logic/timer-countdown"]
             },
             {
@@ -117,8 +117,8 @@
             "creating-your-game",
             {
                 "group": "General",
-                "icon": "info",
-                "iconType": "solid",
+                "icon": "square-info",
+                "iconType": "duotone",
                 "pages": ["creating-your-game/general/what-template"]
             },
             {
@@ -129,7 +129,8 @@
             },
             {
                 "group": "World Building",
-                "icon": "map-location",
+                "icon": "mountain-city",
+                "iconType": "duotone",
                 "pages": ["creating-your-game/world-building/place-objects"]
             }
         ]
