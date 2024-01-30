@@ -2,50 +2,21 @@
 title: 'Home'
 description: ''
 ---
+
+# Introduction
+Welcome to the Soba wiki! We’re here to answer your game creation questions.
+
+### Getting Started
+Find information about Soba, your account or how to play our game.
+
 <CardGroup cols={3}>
-<Card title="Select Object" icon="hand-pointer">
-</Card>
-<Card
-  title="Add behavior" icon="square-code">
-</Card>
-<Card
-  title="Play with friends!" icon="earth-americas">
-</Card>
+    <Card title="Overview" icon="flag">
+    Get started with Soba
+  </Card>
+    <Card title="Account" icon="user">
+    Manage your account
+  </Card>
+    <Card title="Play" icon="play">
+    Learn how to play!
+  </Card>
 </CardGroup>
-
-### What is a timer (or countdown)?
-
-A "countdown" mechanic in game design refers to a mechanic that has a timer or a time limit, adding a sense of urgency and challenge to the game. For example, a countdown timer can be displayed on your Soba game to require the player to complete a task within a certain time, and if the timer reaches zero, it may trigger an ‘End Game’ node.
-
-<p align="center">
-  <img width="500" noZoom src="https://i.imgur.com/x8Dgygb.png" />
-</p>
-
-### How to add a countdown to my game?
-
-<Steps>
-  <Step title="First Steps">
-<Accordion title="The basics for all behaviors">
-    1. Click on the asset to which you want to add a behavior
-    2. With the object selected, click on the “Details” button to the left of your screen.
-    <p align="center">
-      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
-    3. In the Details panel, click “Add Behavior”.
-</Accordion>
-  </Step>
-  <Step title="Second Step">
-Decide what will trigger the behavior. This could be an action like a collision, an interaction, or an event. Select a “Trigger” box and drag it into the editor.
- </Step>
-<Step title="Third Step">
-Navigate to the “Effects” section. Here, choose the countdown block you want your asset to perform when triggered. For example, you might select “Start Countdown” to create some sense of urgency after a player touches an object. You also have other countdown options, such as Stop, Adjust, Pause, and Resume. Trigger them to tweak your countdown mechanic needs!
-  <Accordion title="Behavior Image">
-    <p align="center">
-      <img width="200" noZoom src="https://i.imgur.com/lZPNxqk.png" />
-      </p>
-  </Accordion>
-  </Step>
-<Step title="Fourth Step">
-6. Exit the Behavior Editor, playtest and ensure it works as expected!
-   <Tip> Make sure to add a ‘custom graph’ to your countdown block. This connects the countdown result with specific players in your game. The example below picks the ‘first player’ on the custom graph, meaning that only this player will be affected by the countdown. <br /> <br /> <Accordion title="Behavior Image"> <img width="400" noZoom src="https://i.imgur.com/auOEI1d.png" /></Accordion></Tip>
-</Step>
-</Steps>
