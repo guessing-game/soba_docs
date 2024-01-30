@@ -44,6 +44,12 @@
       "icon": "book",
       "iconType": "duotone"
       "url": "home"
+    },
+      {
+      "name": "Documentation",
+      "icon": "book",
+      "iconType": "duotone"
+      "url": "getting-started"
     }
   ],
   "search": {
