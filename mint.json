@@ -47,7 +47,6 @@
     {
       "name": "Video Tutorials",
       "icon": "youtube",
-      "isDefaultHidden": "true",
       "url": "video-tutorials"
     },
     {
