@@ -66,13 +66,13 @@
             {
                 "group": "Account",
                 "icon": "user",
-                "iconType": "solid",
+                "iconType": "regular",
                 "pages": ["getting-started/account/delete"]
             },
             {
                 "group": "Play",
                 "icon": "play",
-                "iconType": "solid",
+                "iconType": "regular",
                 "pages": ["getting-started/play/controls"]
             }
         ]
@@ -84,7 +84,7 @@
             {
                 "group": "General",
                 "icon": "square-terminal",
-                "iconType": "duotone",
+                "iconType": "regular",
                 "pages": ["behavior-editor/general/nodes-list",
                 "behavior-editor/general/triggers",
                 "behavior-editor/general/blocks"]
@@ -118,18 +118,18 @@
             {
                 "group": "General",
                 "icon": "square-info",
-                "iconType": "duotone",
+                "iconType": "regular",
                 "pages": ["creating-your-game/general/what-template"]
             },
             {
                 "group": "Managing Your Game",
                 "icon": "wrench",
-                "iconType": "solid",
+                "iconType": "regular",
                 "pages": ["creating-your-game/managing-your-game/save-game"]
             },
             {
                 "group": "World Building",
-                "icon": "mountain-city",
+                "icon": "mountain-sun",
                 "iconType": "duotone",
                 "pages": ["creating-your-game/world-building/place-objects"]
             }
