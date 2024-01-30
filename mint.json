@@ -38,20 +38,6 @@
     "name": "Get Access",
     "url": "https://soba.xyz"
   },
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book",
-      "iconType": "duotone"
-      "url": "behavior-editor"
-    },
-      {
-      "name": "Documentation",
-      "icon": "book",
-      "iconType": "duotone"
-      "url": "getting-started"
-    }
-  ],
   "search": {
     "prompt": "My game idea is.."
   },
