@@ -52,6 +52,7 @@
     {
       "name": "Discord",
       "icon": "discord",
+      "isDefaultHidden": true,
       "url": "discord"
     }
   ],
