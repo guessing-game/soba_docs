@@ -39,16 +39,21 @@
     "url": "https://soba.xyz"
   },
   "topAnchor": {
-      "name": "Home",
-      "icon": "building",
-      "url": "home"
+      "name": "Documentation",
+      "icon": "book",
+      "iconType": "duotone"
   },
   "anchors": [
-      {
-          "name": "Contact us",
-          "icon": "envelope",
-          "url": "https://mintlify.com/contact-us"
-      }
+    {
+      "name": "Video Tutorials",
+      "icon": "youtube",
+      "url": "video-tutorials"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "discord"
+    }
   ],
   "search": {
     "prompt": "My game idea is.."
