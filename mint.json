@@ -38,11 +38,6 @@
     "name": "Get Access",
     "url": "https://soba.xyz"
   },
-  "topAnchor": {
-      "name": "Documentation",
-      "icon": "book",
-      "iconType": "duotone"
-  },
   "anchors": [
     {
       "name": "Documentation",
