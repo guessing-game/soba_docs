@@ -60,7 +60,7 @@
             {
                 "group": "Overview",
                 "icon": "flag-checkered",
-                "iconType": "duotone",
+                "iconType": "regular",
                 "pages": ["getting-started/getting-started/quick-start"]
             },
             {
