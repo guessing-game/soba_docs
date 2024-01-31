@@ -50,13 +50,20 @@
                 "group": "Overview",
                 "icon": "flag",
                 "iconType": "regular",
-                "pages": ["getting-started/getting-started/quick-start"]
+                "pages": ["getting-started/getting-started/quick-start",
+                "getting-started/getting-started/what-is-soba",
+                "getting-started/getting-started/download",
+                "getting-started/getting-started/multi-platform",
+                "getting-started/getting-started/offline",
+                "getting-started/getting-started/co-creation"
+                ]
             },
             {
                 "group": "Account",
                 "icon": "user",
                 "iconType": "regular",
-                "pages": ["getting-started/account/delete"]
+                "pages": ["getting-started/account/change-username",
+                "getting-started/account/account-delete"]
             },
             {
                 "group": "Play",
