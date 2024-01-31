@@ -121,9 +121,9 @@
                 "icon": "square-info",
                 "iconType": "regular",
                 "pages": ["creating-your-game/general/what-template",
-                "getting-started/general/controls",
-                "getting-started/general/buttons",
-                "getting-started/general/behavior-editor"
+                "creating-your-game/general/controls",
+                "creating-your-game/general/buttons",
+                "creating-your-game/general/behavior-editor"
                 ]
             },
             {
@@ -131,12 +131,12 @@
                 "icon": "wrench",
                 "iconType": "regular",
                 "pages": ["creating-your-game/managing-your-game/save-game",
-                "getting-started/managing-your-game/game-name",
-                "getting-started/managing-your-game/thumbnail",
-                "getting-started/managing-your-game/game-copy",
-                "getting-started/managing-your-game/offline",
-                "getting-started/managing-your-game/delete",
-                "getting-started/managing-your-game/rules"
+                "creating-your-game/managing-your-game/game-name",
+                "creating-your-game/managing-your-game/thumbnail",
+                "creating-your-game/managing-your-game/game-copy",
+                "creating-your-game/managing-your-game/offline",
+                "creating-your-game/managing-your-game/delete",
+                "creating-your-game/managing-your-game/rules"
                 ]
             },
             {
@@ -144,13 +144,13 @@
                 "icon": "mountain-sun",
                 "iconType": "duotone",
                 "pages": ["creating-your-game/world-building/place-objects",
-                "getting-started/world-building/transform",
-                "getting-started/world-building/group",
-                "getting-started/world-building/color",
-                "getting-started/world-building/mood",
-                "getting-started/world-building/music",
-                "getting-started/world-building/dynamic-object",
-                "getting-started/world-building/duplicate"
+                "creating-your-game/world-building/transform",
+                "creating-your-game/world-building/group",
+                "creating-your-game/world-building/color",
+                "creating-your-game/world-building/mood",
+                "creating-your-game/world-building/music",
+                "creating-your-game/world-building/dynamic-object",
+                "creating-your-game/world-building/duplicate"
                 ]
             }
         ]
