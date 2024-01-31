@@ -120,19 +120,38 @@
                 "group": "General",
                 "icon": "square-info",
                 "iconType": "regular",
-                "pages": ["creating-your-game/general/what-template"]
+                "pages": ["creating-your-game/general/what-template",
+                "getting-started/general/controls",
+                "getting-started/general/buttons",
+                "getting-started/general/behavior-editor"
+                ]
             },
             {
                 "group": "Managing Your Game",
                 "icon": "wrench",
                 "iconType": "regular",
-                "pages": ["creating-your-game/managing-your-game/save-game"]
+                "pages": ["creating-your-game/managing-your-game/save-game",
+                "getting-started/managing-your-game/game-name",
+                "getting-started/managing-your-game/thumbnail",
+                "getting-started/managing-your-game/game-copy",
+                "getting-started/managing-your-game/offline",
+                "getting-started/managing-your-game/delete",
+                "getting-started/managing-your-game/rules"
+                ]
             },
             {
                 "group": "World Building",
                 "icon": "mountain-sun",
                 "iconType": "duotone",
-                "pages": ["creating-your-game/world-building/place-objects"]
+                "pages": ["creating-your-game/world-building/place-objects",
+                "getting-started/world-building/transform",
+                "getting-started/world-building/group",
+                "getting-started/world-building/color",
+                "getting-started/world-building/mood",
+                "getting-started/world-building/music",
+                "getting-started/world-building/dynamic-object",
+                "getting-started/world-building/duplicate"
+                ]
             }
         ]
     },
