@@ -62,7 +62,12 @@
                 "group": "Play",
                 "icon": "play",
                 "iconType": "regular",
-                "pages": ["getting-started/play/controls"]
+                "pages": ["getting-started/play/controls",
+                "getting-started/play/emotes",
+                "getting-started/play/movements",
+                "getting-started/play/multiplayer",
+                "getting-started/play/remix"
+                ]
             }
         ]
     },
