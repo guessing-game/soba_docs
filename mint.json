@@ -137,5 +137,8 @@
     "youtube": "https://www.youtube.com/@soba_xyz/videos",
     "discord": "https://discord.gg/JVRyTGPEHS",
     "linkedin": "https://www.linkedin.com/company/sobaxyz"
+  },
+  "feedback": {
+    "thumbsRating": true
   }
 }
