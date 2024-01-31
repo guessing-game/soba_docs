@@ -1,0 +1,61 @@
+---
+title: 'How to create a killing object?'
+description: 'Want to spice up your game? Create a killing object to make your game more interesting.'
+---
+
+In your game, you can create a killing objects in various ways, but here are two different methods!  
+## Option 1: Instant death
+The player instantly dies upon collision with the object.
+<Steps>
+  <Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Tap on the object to which you want to add a behavior
+    2. With the object selected, tap on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, tap “Add Behavior”.
+    </Accordion>
+  </Step>
+  <Step title="Set your Trigger">
+    Drag the "Player Touches Object" trigger block into the Behavior Editor.
+  </Step>
+   <Step title="Add Game Action">
+    In “Game Actions”, drag the “Kill Player” action block and place it below the trigger.
+<Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/YIvl1T6.jpeg"/>
+      </p>
+  </Accordion>
+  </Step>
+   <Step title="Playtest!">
+     After setting up the movements, test your game to see how the object behaves and make adjustments for the perfect effect.
+  </Step>
+  </Steps>
+
+  ## Option 2: Player Loses a Life on Collision 
+The player instantly dies upon collision with the object.
+<Steps>
+  <Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Tap on the object to which you want to add a behavior
+    2. With the object selected, tap on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, tap “Add Behavior”.
+    </Accordion>
+  </Step>
+  <Step title="Set your Lives">
+    Drag the “Game Starts” trigger block into the Behavior Editor. Then go into “Game Actions” and drag the “Set Maximum Lives” block below the trigger. Modify the number of lives (default is 10) by toggling the block.
+  </Step>
+   <Step title="Add Killing Logic">
+    Let’s create the killing action. Drag the trigger block “Player touches Object”. In “Game Actions”, find the block “Add Lives” and tap to toggle the rest of the behavior. Change the value to -1. Every time the player collides, they will lose one life.
+<Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/vYq4zIQ.jpeg"/>
+      </p>
+  </Accordion>
+  </Step>
+   <Step title="Playtest!">
+     After setting up the movements, test your game to see how the object behaves and make adjustments for the perfect effect.
+  </Step>
+  </Steps>
