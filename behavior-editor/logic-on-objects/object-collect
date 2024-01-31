@@ -1,0 +1,67 @@
+---
+title: 'How to create objects that you collect'
+description: ''
+---
+
+In many games, collecting objects like coins is a fun way to score points. Here's how you can set this up:
+
+## First Step: Set up scoring logic
+Let’s set up the score so that the game starts with 0. Otherwise there won’t be any scores. Tap on the hamburger menu to the left. Go into “Game Rules” and toggle “Scores & Leaderboard”. Values below should be “Score Points”, “Score” and “Highest Score”. Exit and go back into the World Building. 
+
+Now you have two options: using pre-built objects that already have a pre-built behavior, or building that behavior from scratch.
+
+### **Option 1: Using an Object with Pre-Built Behavior**
+To make it easier, we’ve added a function to the coin in the list of objects that already has the collection logic, so you don’t have to add the logic manually. 
+
+If you select an object that already has a point-collecting behavior built in, such as a coin, follow these steps:
+
+<Steps>
+  <Step title="Select Your Object">
+    Choose an object, like a coin, which already has a collection behavior predefined. Place it in your game
+  </Step>
+  <Step title="Playtest">
+    Add the object to your game and conduct a playtest to see the behavior in action.
+  </Step>
+</Steps>
+
+
+### Option 2: Manually Adding Collection Behavior
+
+To manually add collection behavior to an object, follow these steps:
+
+<Steps>
+  <Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Click on the asset to which you want to add a behavior
+    2. With the object selected, click on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, click “Add Behavior”.
+    </Accordion>
+  </Step>
+  <Step title="Set your Trigger">
+    Opt for the “Player Touches Object” trigger and drag it into the behavior editor, setting it to activate when the player touches the object.
+  </Step>
+   <Step title="Add Score Action">
+    In "Game Actions”, select “Add Score”. This action adds 1 point when the object is collected. Change the score value if needed by tapping on the [x] button and setting your preferred amount.
+  </Step>
+  <Step title="Add a special effect">
+    Enhance the collection moment with a visual effect. Drag a “Play Particle Effect” block from the “Effects” section. Toggle the block and choose your desired effect from the list
+  </Step>
+  <Step title="Add a sound">
+    For sound, pick the “Sound on Object” block in the “Effects” section, customizing the sound type, volume, and delay.
+  </Step>
+  <Step title="Destroy the object">
+    To ensure the object disappears after being collected, from “Object Actions”, choose “Destroy Object”.
+    <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/2U4ymzB.jpg"/>
+      </p>
+  </Accordion>
+  </Step>
+  <Step title="Playtest">
+    To ensure everything works, playtest your game!
+  </Step>
+</Steps>
+
+
