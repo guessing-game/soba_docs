@@ -154,14 +154,6 @@
                 ]
             }
         ]
-    },
-    {
-      "group": "",
-      "pages": ["video-tutorials/intro"]
-    },
-    {
-      "group": "",
-      "pages": ["discord/intro"]
     }
   ],
   "footerSocials": {
