@@ -139,6 +139,7 @@
     "linkedin": "https://www.linkedin.com/company/sobaxyz"
   },
   "feedback": {
-    "thumbsRating": true
+    "thumbsRating": true,
+    "raiseIssue": true
   }
 }
