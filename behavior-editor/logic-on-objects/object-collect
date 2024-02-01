@@ -1,6 +1,6 @@
 ---
 title: 'How to create objects that you collect'
-description: ''
+description: 'Adding collectable objects to your Soba game can add a fun goal to your game! Here's how to do it'
 ---
 
 In many games, collecting objects like coins is a fun way to score points. Here's how you can set this up:
