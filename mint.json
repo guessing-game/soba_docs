@@ -121,7 +121,11 @@
             {
                 "group": "Working With Players",
                 "icon": "users",
-                "pages": ["behavior-editor/working-with-players/player-speed"]
+                "pages": ["behavior-editor/working-with-players/player-speed",
+                "behavior-editor/working-with-players/player-teleport",
+                "behavior-editor/working-with-players/invincible",
+                "behavior-editor/working-with-players/random-player"
+                ]
             }
         ]
     },
