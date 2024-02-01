@@ -104,7 +104,7 @@
                 "behavior-editor/game-logic/health",
                 "behavior-editor/game-logic/multiplayer",
                 "behavior-editor/game-logic/checkpoint",
-                "pages": ["behavior-editor/game-logic/teleport",
+                "behavior-editor/game-logic/teleport",
                 "behavior-editor/game-logic/spawnpoints",
                 "behavior-editor/game-logic/prompt-text",
                 "behavior-editor/game-logic/dialogue",
