@@ -99,7 +99,12 @@
             {
                 "group": "Game Logic",
                 "icon": "flask-round-poison",
-                "pages": ["behavior-editor/game-logic/timer-countdown"]
+                "pages": ["behavior-editor/game-logic/timer-countdown",
+                "behavior-editor/game-logic/score",
+                "behavior-editor/game-logic/health",
+                "behavior-editor/game-logic/multiplayer",
+                "behavior-editor/game-logic/checkpoint"
+                ]
             },
             {
                 "group": "Logic On Objects",
