@@ -1,0 +1,29 @@
+---
+title: 'How to create an invisible wall?'
+description: 'Want to confuse your players? Add an invisible wall to guide your players how you want it.'
+---
+Invisible walls can be used to define boundaries or guide player movement in your game. Follow these steps to add an invisible wall:
+
+<Steps>
+
+  <Step title="Pick an invisible object">
+    Select on object from the last category of objects (the trampoline section) which have predefined properties. Pick one of the invisible objects with the dotted lines. With the object selected, tap on the “Details” button to the left of your screen. In the Details panel, tap “Add Behavior”.
+    <p align="center">
+      <img width="300" noZoom src="https://i.imgur.com/72tpjHa.png" /> </p>
+  </Step>
+   <Step title="Choose Trigger">
+    To have the invisible wall active from the game's start, select the “Game Start” block in the Trigger section.
+  </Step>
+   <Step title="Choose Object Action">
+      In the “Object Action” section, under “Object Properties”, choose the “Set Solidity” block. Tick the “Value” box within the “Set Solidity” block. This action will make your wall solid, preventing players from passing through, yet it remains invisible.
+      <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/2F3iQ3T.jpg"/>
+      </p>
+  </Accordion>
+  </Step>
+
+  <Step title="Playtest!">
+     After setting up the movements, test your game to see how the object behaves and make adjustments for the perfect effect.
+  </Step>
+  </Steps>

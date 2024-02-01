@@ -1,0 +1,44 @@
+---
+title: 'How to make an object teleport?'
+description: 'Want to make an object teleport on Soba? Here's how to do it!'
+---
+Making your objects teleport can add a lot of dynamism in your game. Here are the steps to do it!
+
+<Steps>
+  <Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Tap on the object to which you want to add a behavior
+    2. With the object selected, tap on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, tap “Add Behavior”.
+    </Accordion>
+  </Step>
+  <Step title="Set your Trigger">
+    Decide what will trigger the behavior. In this case, we are using “Interaction" so the behavior will be triggered when the player interacts with the object.
+  </Step>
+   <Step title="Add Object Action">
+    Go to the “Object Actions” section, select the "Set Object Position" block, and set the coordinates for the teleport. Alternatively, you can build a custom logic with further data by tapping on the "Position" number and, instead of typing something, selecting "Add Custom Graphs" at the bottom of your screen.  
+    <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/0Meaj9P.png"/>
+      </p>
+  </Accordion>
+  </Step>
+  <Step title="Build Your Custom Graph">
+    On the right hand tab, go to the last of the Sources nodes and select "Object Sources". Then, in the right-hand tap, go to "Operators". Search for "Object Position". Connect the three of them like the sequence below.
+    <Accordion title="Source Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/3wQTZHR.png"/>
+      </p>
+  </Accordion>
+ </Step>
+
+  <Step title="Select Where Your Object Will Teleport">
+    On "Editor Object Sources" node, click on the cube to the right and select the object you want to teleport your object to, and confirm the selection.
+    
+  </Step>
+   <Step title="Playtest!">
+     After setting up the movements, test your game to see how the object behaves and make adjustments for the perfect effect.
+  </Step>
+  </Steps>

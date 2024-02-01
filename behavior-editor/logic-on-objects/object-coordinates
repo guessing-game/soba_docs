@@ -1,0 +1,56 @@
+---
+title: 'How to get object coordinates?'
+description: 'Getting your object coordinates is super important if you want to move, teleport object and much more.'
+---
+
+Getting your object coordinates is super important if you want to move, teleport object and much more. Here's a step by step guide to getting your coordinates.
+
+<Steps>
+
+  <Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Tap on the object to which you want to add a behavior
+    2. With the object selected, tap on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, tap “Add Behavior”.
+    </Accordion>
+  </Step>
+
+  <Step title="Set your Trigger">
+    Decide what will trigger the behavior. In this case, we are using “Interaction" so the behavior will be triggered when the player interacts with the object.
+  </Step>
+
+   <Step title="Create a Variable">
+    Create a variable that you will use to pass the coordinates position. To do that, tap on the “Variables” icon on the top-left corner of the screen and create a “Position” variable. Name it so you can retrieve the variable later. Let's name it “Pos”.
+    <Accordion title="Variable Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/BSLj0Gr.png"/>
+      </p>
+  </Accordion>
+  </Step>
+
+  <Step title="Build Your Custom Graph">
+    Now, tap on the position of that block and tap "Add Custom Graph".This custom graph will be responsible for picking the coordinates you want and pass those coordinates to the variable. Select the Operator tab and find the "Object Position" node in the property extractor. Link it to the "Position" node. In the Sources tab, select "This Object" in the Self category. Link it to the "Get Position" node.
+    <Accordion title="Custom Graph Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/4rcRQEf.png"/>
+      </p>
+  </Accordion>
+ </Step>
+
+  <Step title="Display coordinates in text">
+Let's now display the coordinates that the variable has for the player. Go to the “Effects” section and select ‘Text on HUD with Variable'. Attach that new block and set its variable to “Pos”. Here, we also changed the text that comes before (’Text Before').
+    <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/JsuHvhn.png"/>
+      </p>
+  </Accordion>
+    
+  </Step>
+
+   <Step title="Playtest!">
+    Exit the Behavior Editor, playtest and check that the coordinates are displayed when you interact with the object 
+</Step>
+
+  </Steps>
