@@ -1,0 +1,62 @@
+---
+title: 'Leaderboard Settings'
+description: 'Here is a step-by-step tutorial to add leaderboards to your game'
+---
+
+### **How do I enable leaderboards on my game?**
+
+The first step is to enable leaderboards on your game. Refer to [How to adjust the game rule settings?]() for doing so. With leaderboards enabled, define in the game settings whether you want to base it on Score Points or Time. See below how both leaderboards reflect in the game.
+
+<Tip> Remember! You have to publish your game and play-test it from the discovery screen (not the play-test inside the creation mode) for the leaderboard to appear. </Tip>
+
+### Score on the Leaderboards
+<Steps>
+  <Step title="First Step">
+<Accordion title="The basics for all behaviors">
+    1. Click on the asset to which you want to add a behavior
+    2. With the object selected, click on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, click “Add Behavior”.
+</Accordion>
+  </Step>
+  <Step title="Second Step">
+Decide what will trigger the behavior. This could be an action like a collision, an interaction, or players entering a game. Select a “Trigger” box and drag it into the editor. 
+ </Step>
+<Step title="Third Step">
+Navigate to the “Game Actions” section, and select either the 'Set Score’ or ‘Add Score’ blocks. In the example below, we use the ‘Add Score’ block when the player interacts with an object, incrementing his game score. You might want to use leaderboard scores to encourage competition in your game.
+  <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="300" noZoom src="https://i.imgur.com/Y4n6jxm.png" /> </p>
+  </Accordion>
+  </Step>
+<Step title="Fourth Step">
+Exit the Behavior Editor, playtest and ensure it works as expected!
+</Step>
+</Steps>
+
+### Time on the Leaderboards
+<Steps>
+  <Step title="First Step">
+<Accordion title="The basics for all behaviors">
+    1. Click on the asset to which you want to add a behavior
+    2. With the object selected, click on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, click “Add Behavior”.
+</Accordion>
+  </Step>
+  <Step title="Second Step">
+Decide what will trigger the behavior. This could be an action like a collision, an interaction, or players entering a game. Select a “Trigger” box and drag it into the editor. 
+ </Step>
+<Step title="Third Step">
+Navigate to the “Game Actions” section, and select either the 'End Game For Player Score’ or ‘End Game’ blocks. In the example below, we use a slightly more complex approach where we send an event called “finish” and capture that event to end the game. Alternatively, you can pick an easier path and just finish the game right away with your trigger block instead of using events for it.
+  <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="300" noZoom src="https://i.imgur.com/9xUbaMQ.png" /> </p>
+  </Accordion>
+  </Step>
+<Step title="Fourth Step">
+Exit the Behavior Editor, playtest and ensure it works as expected!
+</Step>
+</Steps>
