@@ -1,0 +1,43 @@
+---
+title: 'How do I make an object teleport?'
+description: 'Here is a step-by-step tutorial to make an object teleport in your game'
+---
+
+There are two ways to make your players teleport across positions. One is using the teleport object, and the other is by using behavior editor. We'll teach both ways in the information below.
+
+### Using the teleport object:
+1. 1. Browse through the last category of objects.
+2. Find the teleport object and place it on your map.
+    <p align="center">
+      <img width="400" noZoom src="https://i.imgur.com/LFlEkAM.png" /> </p>
+3. Move the teleports between the two different positions you want to teleport players across.
+    <p align="center">
+      <img width="400" noZoom src="https://i.imgur.com/7GScnJN.png" /> </p>
+4. Exit the creator mode and test it!
+
+### Using the behavior editor:
+<Steps>
+  <Step title="First Step">
+<Accordion title="The basics for all behaviors">
+    1. Click on the asset to which you want to add a behavior
+    2. With the object selected, click on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, click “Add Behavior”.
+</Accordion>
+  </Step>
+  <Step title="Second Step">
+Decide what will trigger the behavior. This could be an action like a collision or an interaction. Select a “Trigger” box and drag it into the editor.  
+ </Step>
+<Step title="Third Step">
+Navigate to the “Game Actions” section, select the 'Set Player Position’ block, and set the coordinates for the checkpoint. You can also build custom logic with further data by tapping on the “Graph” button next to Position. Instead of typing something, select “Add Custom Graphs”. This example below will set the teleport position to an object in your game.
+  <Accordion title="Behavior Image">
+  Behavior Block             |  Nodes (custom graph)
+:-------------------------:|:-------------------------:
+<img width="300" noZoom src="https://i.imgur.com/dz1Afcq.png" />  |  <img width="600" noZoom src="https://i.imgur.com/rmn6ip6.png" />
+  </Accordion>
+  </Step>
+<Step title="Fourth Step">
+Exit the Behavior Editor, playtest and ensure it works as expected!
+</Step>
+</Steps>
