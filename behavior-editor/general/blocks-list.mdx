@@ -1,0 +1,151 @@
+---
+title: 'List of all blocks and nodes'
+description: 'Learn about all the no-code editor on Soba'
+---
+
+<Accordion title="What are Blocks" icon="rectangle-history">
+    Blocks are the puzzle pieces on our behavior editor. These blocks connect to form a column, with each piece representing an action for the mechanic you're creating. See image below for understanding what are blocks.
+    <p align="center">
+      <img width="400" noZoom src="https://i.imgur.com/ZEEpgaZ.png" /> </p>
+</Accordion>
+
+# Blocks Library
+|Category      |Block Name                   |Group             |Description                                                                           |
+|--------------|-----------------------------|------------------|--------------------------------------------------------------------------------------|
+|Trigger       |`Game Starts`                  |                  |Activates when the game starts.                                                       |
+|Trigger       |`Player Joins`                |                  |Activates once a player enters a game.                                                |
+|Trigger       |`Periodically`                |                  |Activates every N-th second.                                                          |
+|Trigger       |`Player Touches Object`        |Touched by Player |Activates when the player touches an object.                                          |
+|Trigger       |`Player Stops Touching Object` |Touched by Player |Activates when the object stops touching a player.                                    |
+|Trigger       |`Player Keeps Touching Object` |Touched by Player |Activates periodically while the object touches a player.                             |
+|Trigger       |`Interaction`                  |                  |Activates when a player interacts with an object.                                     |
+|Trigger       |`Hit`                          |                  |Activates when hit by a player weapon.                                                |
+|Trigger       |`Object Touches Object`        |Touched by Object |Activates when the object touches another object.                                     |
+|Trigger       |`Object Stops Touching Object` |Touched by Object |Activates when the object stops touching another object.                              |
+|Trigger       |`Object Keeps Touching Object` |Touched by Object |Activates periodically while the object touches another object.                       |
+|Trigger       |`Plain Event`                  |Receive Event     |Receives a plain event.                                                               |
+|Trigger       |`Player Event`                 |Receive Event     |Receives a plain event.                                                               |
+|Trigger       |`Object Event`                 |Receive Event     |Receives an event with an object.                                                     |
+|Trigger       |`True or False Event`          |Receive Event     |Receives an event with a true or false.                                               |
+|Trigger       |`Number Event`                 |Receive Event     |Receives an event with a number.                                                      |
+|Trigger       |`Text Event`                   |Receive Event     |Receives an event with a text.                                                        |
+|Trigger       |`Position Event`               |Receive Event     |Receives an event with a position.                                                    |
+|Trigger       |`Orientation Event`            |Receive Event     |Receives an event with an orientation.                                                |
+|Trigger       |`Cloned`                       |                  |Executes on a freshly cloned object.                                                  |
+|Game Actions  |`Add Score`                    |Scores            |Give player score.                                                                    |
+|Game Actions  |`Set Score`                    |Scores            |Set a player’s score.                                                                 |
+|Game Actions  |`Increment Health`             |Health & Lives    |Increases the health of a player.                                                     |
+|Game Actions  |`Kill Player`                  |Health & Lives    |Initiates a player’s death including losing a life and respawn.                       |
+|Game Actions  |`Increment Lives`              |Health & Lives    |Adds lives for the player.                                                            |
+|Game Actions  |`Set Health`                   |Health & Lives    |Set a player’s health.                                                                |
+|Game Actions  |`Set Maximum Health`           |Health & Lives    |Set the maximum health players can have.                                              |
+|Game Actions  |`Set Maximum Lives`            |Health & Lives    |Set the maximum lives for players.                                                    |
+|Game Actions  |`Set Lives`                    |Health & Lives    |Sets the lives of a player.                                                           |
+|Game Actions  |`End Game`                     |End Game          |Ends the game for all players simultaneously.                                         |
+|Game Actions  |`End Game For Player`          |End Game          |Ends the game for one player.                                                         |
+|Game Actions  |`Respawn`                      |Spawning          |Respawns a player.                                                                    |
+|Game Actions  |`Set Checkpoint`               |Spawning          |Sets a checkpoint for a player to respawn.                                            |
+|Game Actions  |`Launch Upwards`               |Movement          |Launches a player upwards.                                                            |
+|Game Actions  |`Set Player Jump Style`        |Movement          |Defines if a player can (double) jump or can't jump at all.                           |
+|Game Actions  |`Set Speed Multiplier`         |Movement          |Sets the speed multiplier for a player.                                               |
+|Game Actions  |`Increment Speed Multiplier`   |Movement          |Adds to the speed multiplier.                                                         |
+|Game Actions  |`Bypass input`                 |Movement          |Bypass a player’s input.                                                              |
+|Game Actions  |`Set Player Position`          |Movement          |Set a player’s position.                                                              |
+|Game Actions  |`Set Team`                     |Teams             |Set the team of a player to a team number (will be rounded). 0 means no team.         |
+|Game Actions  |`Add Team Score`               |Teams             |Add to the score of a team.                                                           |
+|Game Actions  |`Set Team Score`               |Teams             |Sets the score of a team.                                                             |
+|Game Actions  |`Wait`         |                  |Wait for n seconds.                                                                   |
+|Game Actions  |`Set Weapon`                   |Weapons           |Equips the player with a weapon.                                                      |
+|Game Actions  |`Remove Weapon`                |Weapons           |Removes a weapon of a player.                                                         |
+|Controllers   |`Loop N Times`                 |Loop              |Executes steps a number of times.                                                     |
+|Controllers   |`Loop Infinitely`              |Loop              |Repeats infinitely.                                                                   |
+|Controllers   |`Loop Objects`                 |Loop              |Loops over Objects in a list.                                                         |
+|Controllers   |`Loop Players`                 |Loop              |Loops over the Players in a list.                                                     |
+|Controllers   |`Loop True or False`           |Loop              |Loops over True or False values in a list.                                            |
+|Controllers   |`Loop Numbers`                 |Loop              |Loops over the Numbers in a list.                                                     |
+|Controllers   |`Loop Orientations`            |Loop              |Loops over the Orientations in a list.                                                |
+|Controllers   |`Loop Positions`               |Loop              |Loops over the Positions in a list.                                                   |
+|Controllers   |`Loop Text`                    |Loop              |Loops over the Texts in a list.                                                       |
+|Controllers   |`If Else Execution`            |Branching         |Executes either one or the other branch depending on a condition.                     |
+|Controllers   |`Number Switch`                |Branching         |Decide what to do based on a number.                                                  |
+|Controllers   |`Optional`                     |                  |Do something based on a true or false condition.                                      |
+|Controllers   |`Lock All`                     |Locks             |Locks up until finished.                                                              |
+|Controllers   |`Lock Per Number`              |Locks             |Locks up until finished for a given number.                                           |
+|Controllers   |`Lock Per Player`              |Locks             |Locks up until finished for a given player.                                           |
+|Object Actions|`Set Object Position`          |Object Properties |Sets the position of an object.                                                       |
+|Object Actions|`Scale Object`                 |Object Properties |Scales an object along its axes.                                                      |
+|Object Actions|`Set Object Orientation`       |Object Properties |Sets the orientation of an object.                                                    |
+|Object Actions|`Set Solidity`                 |Object Properties |Set whether an object is solid.                                                       |
+|Object Actions|`Spin`                         |Object Movement   |Spins the object around its axes for the given duration.                              |
+|Object Actions|`Orbit`                        |Object Movement   |Rotates the object around a given central position for the specified duration.        |
+|Object Actions|`Bounce`                       |Object Movement   |Lets an object bounce. The start speed is double the first jump's average speed.      |
+|Object Actions|`Move Towards`                 |Object Movement   |Moves the object towards a given position.                                            |
+|Object Actions|`Rotate Towards`               |Object Movement   |Rotates the object until it reaches a defined orientation.                            |
+|Object Actions|`Scale Towards`                |Object Movement   |Scale an object towards a factor.                                                     |
+|Object Actions|`Attach To Object`             |Attach            |Attaches an object to another object (target). Use "Stop Position Movement" to detach.|
+|Object Actions|`Attach To Player`             |Attach            |Attaches an object to a player (target). Use "Stop Animation" to detach.              |
+|Object Actions|`Cancel Animation`             |                  |Cancel any movement. Steps after the movement will not be executed.                   |
+|Object Actions|`Clone Object`                 |                  |Creates a clone of the given object with all its properties.                          |
+|Object Actions|`Destroy Object`               |                  |Destroys an object.                                                                   |
+|Object Actions|`Wait`                         |                  |Wait for n seconds.                                                                   |
+|Effects       |`Play Particle Effect`         |Object Effects    |Shows a particle effect on an object.                                                 |
+|Effects       |`Object Trail`                 |Object Effects    |Adds a trail to an object.                                                            |
+|Effects       |`Play Animation`               |Object Effects    |Plays an object animation. Not every object provides all animation types.             |
+|Effects       |`Text on Object`               |Object Effects    |Shows a text on an object.                                                            |
+|Effects       |`Text with Variable on Object` |Object Effects    |Shows a variable with text around it on an object.                                    |
+|Effects       |`Play Particle Effect`         |Player Effects    |Shows a particle effect on a player.                                                  |
+|Effects       |`Player Trail `                |Player Effects    |Adds a trail to a player.                                                             |
+|Effects       |`Set Player Camera Mode`       |                  |Sets the player’s camera mode.                                                        |
+|Effects       |`Set Player’s Sky`             |Player Environment|Specifies how the sky looks like for a player.                                        |
+|Effects       |`Set Horizon`                  |Player Environment|Specifies how the horizon looks like for a player.                                    |
+|Effects       |`Set Sun`                      |Player Environment|Specifies how the sun looks like for a player.                                        |
+|Effects       |`Set Weather`                  |Player Environment|Sets the weather effects for a player.                                                |
+|Effects       |`Set Fog`                      |Player Environment|Sets the environment's fog thickness (from 0 to 1) for a player.                      |
+|Effects       |`Play Music`                   |Sound             |Plays background music.                                                               |
+|Effects       |`Stop Music`                  |Sound             |Stops the background music.                                                           |
+|Effects       |`Sound on Object`              |Sound             |Lets an object play a sound. You can define an offset to the object position.         |
+|Effects       |`Sound on Player`             |Sound             |Lets a player play a sound. You can define an offset to the player position.          |
+|Effects       |`Text on HUD`                  |Player HUD Text   |Shows a text in the HUD of a player.                                                  |
+|Effects       |`Text on HUD with Variable`    |Player HUD Text   |Shows a text in the HUD of a player with one variable value.                          |
+|Effects       |`Start Countdown`              |Countdown         |Starts a countdown in the HUD of a player.                                            |
+|Effects       |`Stop Countdown`               |Countdown         |Stops a countdown in the HUD of a player.                                             |
+|Effects       |`Adjust Countdown`             |Countdown         |Adds or removes time from a running countdown for a player.                           |
+|Effects       |`Pause Countdown`              |Countdown         |Pauses a running countdown for a player.                                              |
+|Effects       |`Resume Countdown`             |Countdown         |Resumes a paused countdown for a player.                                              |
+|Effects       |`Wait`                         |                  |Wait for n seconds.                                                                   |
+|Miscellaneous |`Set Number Variable`          |Set Variable      |Stores a number for an object based on a variable name.                               |
+|Miscellaneous |`Set True Or False Variable`   |Set Variable      |Stores true or false for an object based on a variable name.                          |
+|Miscellaneous |`Set Text Variable`            |Set Variable      |Stores a text for an object based on a variable name.                                 |
+|Miscellaneous |`Set Vector Variable`          |Set Variable      |Stores a vector for an object based on a variable name.                               |
+|Miscellaneous |`Set Color Variable`           |Set Variable      |Stores a color in a variable.                                                         |
+|Miscellaneous |`Set Orientation Variable`     |Set Variable      |Stores an orientation in a variable.                                                  |
+|Miscellaneous |`Set Position Variable`        |Set Variable      |Stores a position value for an object based on a variable name.                       |
+|Miscellaneous |`Set Object Variable`          |Set Variable      |Stores an object in a variable.                                                       |
+|Miscellaneous |`Set Player Variable`          |Set Variable      |Stores a player in a variable.                                                        |
+|Miscellaneous |`Increment Number Variable`    |Set Variable      |Add to a number variable.                                                             |
+|Miscellaneous |`Set Number List Variable`     |Set Variable      |Stores a list of numbers based on a variable name.                                    |
+|Miscellaneous |`Set Text List Variable`       |Set Variable      |Stores a list of texts based on a variable name.                                      |
+|Miscellaneous |`Set True/False List Variable` |Set Variable      |Stores a list of True/False values.                                                   |
+|Miscellaneous |`Set Position List Variable`   |Set Variable      |Stores a list of Positions.                                                           |
+|Miscellaneous |`Set Orientation List Variable`|Set Variable      |Stores a list of Orientations.                                                        |
+|Miscellaneous |`Set Object List Variable`     |Set Variable      |Stores a list of Objects.                                                             |
+|Miscellaneous |`Set Player List Variable`     |Set Variable      |Stores a list of Players.                                                             |
+|Miscellaneous |`Plain Event `                 |Send Event        |Sends a plain event.                                                                  |
+|Miscellaneous |`Send Object Event`            |Send Event        |Sends an event with an object.                                                        |
+|Miscellaneous |`Send Player Event`            |Send Event        |Sends an event with a player.                                                         |
+|Miscellaneous |`Send Boolean Event`           |Send Event        |?                                                                                     |
+|Miscellaneous |`Send Number Event`            |Send Event        |Send an event with a number.                                                          |
+|Miscellaneous |`Send Orientation Event`       |Send Event        |Send an event with an orientation.                                                    |
+|Miscellaneous |`Send Position Event`          |Send Event        |Sends an event with a position.                                                       |
+|Miscellaneous |`Send Text Event`              |Send Event        |Sends an event with a text.                                                           |
+|Miscellaneous |`Debug Object`                 |Debug             |Output object to the player HUD for debugging.                                        |
+|Miscellaneous |`Debug Player`                 |Debug             |Output player to the player HUD for debugging.                                        |
+|Miscellaneous |`Debug Boolean`                |Debug             |Output True or False to the player HUD for debugging.                                 |
+|Miscellaneous |`Debug Number `                |Debug             |Output number to the player HUD for debugging.                                        |
+|Miscellaneous |`Debug Orientation `           |Debug             |Output orientation to the player HUD for debugging.                                   |
+|Miscellaneous |`Debug Position`               |Debug             |Output position to the player HUD for debugging.                                      |
+|Miscellaneous |`Debug Text `                  |Debug             |Output text to the player HUD for debugging.                                          |
+|Miscellaneous |`Debug Vector `                |Debug             |Output vector to the player HUD for debugging.                                        |
+|Miscellaneous |`Debug Variable`               |Debug             |Output a variable value to the player HUD for debugging.                              |
+|Miscellaneous |`Wait`                        |                  |Wait for n seconds.                                                                   |
+|Miscellaneous |`Show Hint Popup`              |Player HUD Text   |Displays a hint for the given player.                                                 |
