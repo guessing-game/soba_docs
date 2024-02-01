@@ -1,0 +1,42 @@
+---
+title: 'How to make an object move?'
+description: 'Want to make your object move? Here is a step by step tutorial on how to do it on Soba.'
+---
+
+<Steps>
+  <Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Tap on the object to which you want to add a behavior
+    2. With the object selected, tap on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, tap “Add Behavior”.
+    </Accordion>
+  </Step>
+
+  <Step title="Set your Trigger">
+    Drag the “Game Start” trigger block into the Behavior Editor. You can also select whatever other trigger you want.
+  </Step>
+  
+<Step title="Create a Loop">
+    We want the object to move during the entire game. So in the “Controllers” section, select the loop “Infinitely” and drag it below the trigger.
+  </Step>
+
+  <Step title="Apply First Object Action">
+    In “Object Action”, drag the “Move Towards” block and place it inside the "Infinitely” loop. Toggle the node and change the coordinates as you wish. For instance, change the X value to 5 to make the object move on the x axis from its current position. You can also customise the speed. 
+  </Step>
+
+  <Step title="Apply Second Object Action">
+    For the object to go back in its position, add another block “Move Towards” and apply the same value but negative for the object to resume its position (ie -5 on the x axis) 
+     <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/ZyKtiZu.jpg"/>
+      </p>
+  </Accordion>
+  </Step>
+
+     <Step title="Playtest!">
+    After setting up the movements, test your game to see how the object behaves and make adjustments for the perfect effect.
+  </Step>
+
+  </Steps>
