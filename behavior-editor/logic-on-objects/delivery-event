@@ -1,0 +1,46 @@
+---
+title: 'How to attach and detach objects from a player'
+description: 'Create a dynamic object which attaches and detaches to make your game more interesting.'
+---
+
+In a delivery game scenario, where you need to collect and move a box to a specific location to score, here's the easiest way to attach and detach an object from a player:
+
+<Steps>
+  <Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Tap on the object to which you want to add a behavior
+    2. With the object selected, tap on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, tap “Add Behavior”.
+    </Accordion>
+  </Step>
+  <Step title="Set your Trigger">
+    To attach the object when the player interacts with it, select the “Interaction” block and drag it into the behavior editor.
+  </Step>
+   <Step title="Set Object Action">
+    In the “Object Action” section, drag the “Attach to Player” block below the trigger. Toggle the block and untick “Wait for completion”. Positive Y puts things above the player, positive Z in front of the player. 
+  </Step>
+   <Step title="Create a Delivery Event">
+    In the “Trigger” tab, choose the “With Player” Event Block and drag it into your canvas. Let's add an effect when the box is delivered. In "Effects", select "Add a Particle Effect". Toggle the block and choose the desired effect. Then, let’s cancel the movement of the block being attached to the player. Choose the block “Cancel Animation”. This will detach the object from the player upon delivery.   
+        <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/6Au1ZDW.jpeg"/>
+      </p>
+  </Accordion>
+ </Step>
+     <Step title="Create a Delivery Area">
+    Choose an object where the object will be detached. Tap on the “Details” button. 
+  </Step>
+     <Step title="Trigger for the Delivery Area">
+    Choose the “Player Touches Object” Trigger block to trigger the action when the player reaches the delivery spot. In the “Miscellaneous” category, pick the “Plain Event” block. Toggle it and name it “Deliver” to match the variable created.
+        <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/lRYcdCP.jpeg"/>
+      </p>
+  </Accordion>
+  </Step>
+    <Step title="Playtest!">
+     After setting up the movements, test your game to see how the object behaves and make adjustments for the perfect effect.
+  </Step>
+  </Steps>
