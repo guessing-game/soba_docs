@@ -87,7 +87,7 @@
                 "icon": "square-terminal",
                 "iconType": "regular",
                 "pages": ["behavior-editor/general/blocks-list",
-                "pages": ["behavior-editor/general/nodes-list",
+                "behavior-editor/general/nodes-list",
                 "behavior-editor/general/triggers",
                 "behavior-editor/general/blocks"]
             },
