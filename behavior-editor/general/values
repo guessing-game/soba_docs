@@ -1,0 +1,16 @@
+---
+title: 'How do I change values?'
+description: 'Learn how to change values in the behavior editor of Soba!'
+---
+To fine-tune your game's actions, adjusting the default values of your blocks is key.
+
+Take the “Wait” block as an example: it has a preset duration, but how long should it actually wait? Every block comes with a default setting, but you can customize it to better fit your game's needs.
+
+Here's how to change values:
+
+1. Expand the Block: Click on the arrow on the right side of the block. This will reveal the block's specific parameters.
+2. Edit the Parameter: Click on the parameter's input field.
+3. Enter New Value: A keyboard will pop up, allowing you to type in the desired value for that parameter.
+
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/xWIM943.png" /> </p>
