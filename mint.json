@@ -96,7 +96,8 @@
                 "icon": "file-circle-info",
                 "pages": ["behavior-editor/managing-behaviors/behavior-object",
                 "behavior-editor/managing-behaviors/loop-behavior",
-                "behavior-editor/managing-behaviors/duplicate-behavior"]
+                "behavior-editor/managing-behaviors/duplicate-behavior",
+                "behavior-editor/managing-behaviors/preset-behavior"]
             },
             {
                 "group": "Game Logic",
