@@ -94,7 +94,9 @@
             {
                 "group": "Managing Behaviors",
                 "icon": "file-circle-info",
-                "pages": ["behavior-editor/managing-behaviors/behavior-on-object"]
+                "pages": ["behavior-editor/managing-behaviors/behavior-object",
+                "behavior-editor/managing-behaviors/loop-behavior",
+                "behavior-editor/managing-behaviors/duplicate-behavior"]
             },
             {
                 "group": "Game Logic",
@@ -126,8 +128,7 @@
               "behavior-editor/logic-on-objects/object-coordinates",
               "behavior-editor/logic-on-objects/object-move",
               "behavior-editor/logic-on-objects/object-scale",
-              "behavior-editor/logic-on-objects/object-teleport",
-               ]
+              "behavior-editor/logic-on-objects/object-teleport"]
             },
             {
                 "group": "Working With Players",
