@@ -116,7 +116,17 @@
             {
                 "group": "Logic On Objects",
                 "icon": "cube",
-                "pages": ["behavior-editor/logic-on-objects/clone-objects"]
+                "pages": ["behavior-editor/logic-on-objects/clone-objects"],
+              "behavior-editor/logic-on-objects/add-text",
+              "behavior-editor/logic-on-objects/delivery-event",
+              "behavior-editor/logic-on-objects/invisible-wall",
+              "behavior-editor/logic-on-objects/killing-object",
+              "behavior-editor/logic-on-objects/object-appear",
+              "behavior-editor/logic-on-objects/object-collect",
+              "behavior-editor/logic-on-objects/object-coordinates",
+              "behavior-editor/logic-on-objects/object-move",
+              "behavior-editor/logic-on-objects/object-scale",
+              "behavior-editor/logic-on-objects/object-teleport",
             },
             {
                 "group": "Working With Players",
