@@ -116,8 +116,8 @@
                 "behavior-editor/game-logic/prompt-text",
                 "behavior-editor/game-logic/dialogue",
                 "behavior-editor/game-logic/camera",
-                "behavior-editor/game-logic/leaderboards",
-                "behavior-editor/game-logic/particles"
+                "behavior-editor/game-logic/particles",
+                "behavior-editor/game-logic/leaderboards"
                 ]
             },
             {
