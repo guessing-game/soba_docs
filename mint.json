@@ -88,8 +88,12 @@
                 "iconType": "regular",
                 "pages": ["behavior-editor/general/blocks-list",
                 "behavior-editor/general/nodes-list",
+                "behavior-editor/general/blocks",
+                "behavior-editor/general/blocks-execution",
+                "behavior-editor/general/lock",
+                "behavior-editor/general/custom-graphs",
                 "behavior-editor/general/triggers",
-                "behavior-editor/general/blocks"]
+                "behavior-editor/general/values"]
             },
             {
                 "group": "Managing Behaviors",
