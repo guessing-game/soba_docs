@@ -1,1 +1,67 @@
+---
+title: 'What are Blocks?'
+description: 'Adding blocks to your game is the first step to creating logic on Soba.'
+---
+The new behavior editor in our platform utilizes a block programming approach, where each block is like a puzzle piece. These blocks connect to form a column, with each piece representing a command for the object you're programming.
+
+Consider this example to understand how the execution works:
+
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/Je1WRqL.png" /> </p>
+
+
+Here, the trigger is “Player Touches Object”, which means the execution starts when the player comes into contact with the object. Following this trigger, the object will first spin, and then a particle effect animation will play on it.
+
+
+## Types of blocks
+
+### Triggers
+
+Triggers are the starting point on your canvas, initiating a sequence of commands (execution steps) and defining the conditions for subsequent blocks to activate. Each execution column can have only one trigger.
+
+### Actions
+
+An action is the resulting event that occurs in your game world, but an action block only functions when connected to a trigger. Placing an action block without a trigger means it won't activate.
+
+### Controllers
+
+Controllers add specific rules to your execution, but actions must be placed within a controller block to be effective.
+
+For example a loop controller will loop all the action blocks added inside of it.
+
+## Now let's put this into practice!
+
+Let's say that we want an object to spin three times upon interaction.
+
+<Steps>
+<Step title="Select your object">
+  <Accordion title="The basics for all behaviors">
+    1. Tap on the object to which you want to add a behavior
+    2. With the object selected, tap on the “Details” button to the left of your screen.
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
+    3. In the Details panel, tap “Add Behavior”.
+    </Accordion>
+  </Step>
+  <Step title="Set Trigger">
+    Choose a trigger of your choice. If you want your action to be triggered by the player interacting with your object, choose the "Interaction" trigger. 
+  </Step>
+
+  <Step title="Set Controller">
+    This is where we add in our loop function. To have the object spin 3 times, go to the “Controllers” section. Select and drag the "N Times" Controllers and drag it below your trigger.
+  </Step>
+
+  <Step title="Set Object Action">
+    In the “Object Action” section, drag the “Spin” block below your controller block. Adjust the block settings as you wish. 
+    <Accordion title="Behavior Image">
+    <p align="center">
+      <img width="200" noZoom src="https://i.imgur.com/HTPcvqp.jpgg"/>
+      </p>
+  </Accordion>
+  </Step>
+  <Step title="Test Your Game">
+    To ensure everything works, playtest your game!
+  </Step>
+</Steps>
+
 
