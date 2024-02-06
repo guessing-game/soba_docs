@@ -7,13 +7,13 @@ A lock is used to prevent a sequence of actions from being triggered again befor
 
 For instance, if you have an object designed to spin and then catch fire, as shown here:
     <p align="center">
-      <img width="200" noZoom src="https://i.imgur.com/op4ULEZ.png" /> </p>
+      <img width="350" noZoom src="https://i.imgur.com/op4ULEZ.png" /> </p>
 
 Without a lock, a player could potentially re-trigger this sequence while the object is still on fire. To prevent this and ensure the entire sequence completes before it can be initiated again, you would need to add a lock to these steps:
 
 
     <p align="center">
-      <img width="200" noZoom src="https://i.imgur.com/rfnBTnb.png" /> </p>
+      <img width="350" noZoom src="https://i.imgur.com/rfnBTnb.png" /> </p>
 
 
 With this lock in place, players can only interact with the object and trigger the execution after the entire sequence, including the fire effect, has fully completed.
