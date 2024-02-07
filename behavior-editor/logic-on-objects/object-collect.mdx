@@ -3,12 +3,12 @@ title: 'How to create objects that you collect'
 description: 'Adding collectible objects to your Soba game can add a fun goal to your game! Here is how to do it'
 ---
 
-In many games, collecting objects like coins is a fun way to score points. Here's how you can set this up:
+In many games, collecting objects like coins is a fun way to [score](https://wiki.soba.xyz/behavior-editor/game-logic/score) points. Here's how you can set this up:
 
 ## First Step: Set up scoring logic
 Let’s set up the score so that the game starts with 0. Otherwise there won’t be any scores. Tap on the hamburger menu to the left. Go into “Game Rules” and toggle “Scores & Leaderboard”. Values below should be “Score Points”, “Score” and “Highest Score”. Exit and go back into the World Building. 
 
-Now you have two options: using pre-built objects that already have a pre-built behavior, or building that behavior from scratch.
+Now you have two options: using pre-built objects that already have a [pre-built behavior](https://wiki.soba.xyz/behavior-editor/managing-behaviors/preset-behavior), or building that behavior from scratch.
 
 ### **Option 1: Using an Object with Pre-Built Behavior**
 To make it easier, we’ve added a function to the coin in the list of objects that already has the collection logic, so you don’t have to add the logic manually. 
@@ -46,13 +46,13 @@ To manually add collection behavior to an object, follow these steps:
     In "Game Actions”, select “Add Score”. This action adds 1 point when the object is collected. Change the score value if needed by tapping on the [x] button and setting your preferred amount.
   </Step>
   <Step title="Add a special effect">
-    Enhance the collection moment with a visual effect. Drag a “Play Particle Effect” block from the “Effects” section. Toggle the block and choose your desired effect from the list
+    Enhance the collection moment with a visual [effect](https://wiki.soba.xyz/behavior-editor/game-logic/particles). Drag a “Play Particle Effect” block from the “Effects” section. Toggle the block and choose your desired effect from the list
   </Step>
   <Step title="Add a sound">
-    For sound, pick the “Sound on Object” block in the “Effects” section, customizing the sound type, volume, and delay.
+    For sound, pick the “Sound on Object” block in the “Effects” section, customizing the [sound](https://wiki.soba.xyz/creating-your-game/world-building/music) type, volume, and delay.
   </Step>
   <Step title="Destroy the object">
-    To ensure the object disappears after being collected, from “Object Actions”, choose “Destroy Object”.
+    To ensure the object [disappears](https://wiki.soba.xyz/behavior-editor/logic-on-objects/object-appear) after being collected, from “Object Actions”, choose “Destroy Object”.
     <Accordion title="Behavior Image">
     <p align="center">
       <img width="200" noZoom src="https://i.imgur.com/2U4ymzB.jpg"/>
