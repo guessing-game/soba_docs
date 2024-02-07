@@ -4,12 +4,12 @@ description: 'Here is a step-by-step tutorial to add checkpoints to your game'
 ---
 
 ### How to set a respawn checkpoint to your game?
-Game checkpoints are key to prevent the need to repeat large portions of the map, or to reduce tedium by providing a sense of accomplishment as players progress through the game! Follow the steps below to add a checkpoint to your game:
+Game checkpoints are key to prevent the need to repeat large portions of the map, or to provide a sense of accomplishment as players progress through the game! Follow the steps below to add a checkpoint to your game:
 
 <Steps>
   <Step title="First Step">
 <Accordion title="The basics for all behaviors">
-    1. Click on the asset to which you want to add a behavior
+    1. Click on the asset to which you want to add a [behavior](https://wiki.soba.xyz/behavior-editor/managing-behaviors/behavior-object)
     2. With the object selected, click on the “Details” button to the left of your screen.
     <p align="center">
       <img width="200" noZoom src="https://i.imgur.com/jMSZzP8.png" /> </p>
@@ -20,7 +20,7 @@ Game checkpoints are key to prevent the need to repeat large portions of the map
 Decide what will trigger the behavior. This could be an action like a collision, an interaction, or players entering a game. Select a “Trigger” box and drag it into the editor.  
  </Step>
 <Step title="Third Step">
-Navigate to the “Game Actions” section, select the 'Set Checkpoint’ block, and set the coordinates for the checkpoint. Alternatively, you can build a custom logic with further data by clicking on the position number and, instead of typing something, selecting ‘add custom graphs’. To select an object as a coordinate, add an “Object Offset Position” operator (as the image below). You can increment directions (hence why the name “Offset!”, as you can adjust coordinates from that initial point) on that offset, for example slightly change the Y coordinate of that operator, so that the checkpoint is set above the object and not inside of it!
+Navigate to the “Game Actions” section, select the 'Set Checkpoint’ block, and set the coordinates for the checkpoint. Alternatively, you can build a custom logic with further data by clicking on the position number and, instead of typing something, selecting ‘add custom graphs’. To select an object as a [coordinate](https://wiki.soba.xyz/behavior-editor/logic-on-objects/object-coordinates), add an “Object Offset Position” operator (as the image below). You can increment directions (hence why the name “Offset!”, as you can adjust coordinates from that initial point) on that offset, for example slightly change the Y coordinate of that operator, so that the checkpoint is set above the object and not inside of it!
   <Accordion title="Behavior Image">
   Behavior Block             |  Nodes (custom graph)
 :-------------------------:|:-------------------------:
