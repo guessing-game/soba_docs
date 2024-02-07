@@ -9,15 +9,15 @@ You might notice that there’s a toggle when you select on object in the game t
   <img width="300" noZoom src="https://i.imgur.com/1mkOjkc.png" />
 </p>
 
-### **What is a Dynamic Asset?**
+### **What is a Dynamic Object?**
 
 A dynamic object is an object that can actively interact within the game environment. This capability is determined by the type of collider assigned to the object.
 
 ### **The Role of the Dynamic Toggle**
 
 - **Dynamic vs. Static Collider**: When you select an object in Soba, you'll see an option to toggle the object as dynamic. Turning this toggle on changes the object's collider from static to dynamic.
-- **Behavioral Dynamics**: Objects with behaviors (like movement or interaction capabilities) are naturally dynamic. They can be manipulated or can interact during the game's runtime.
-- **Creating Dynamic Objects Without Inherent Behavior**: Sometimes, you might want an object to interact with the player even if it doesn’t have its own behavior scripted. For instance, you could set up a scenario where a player collides with an object to trigger an action. In these cases, making the object dynamic is essential, even though the behavior is coded on the player side, not the object.
+- **Behavioral Dynamics**: [Objects with behaviors](https://wiki.soba.xyz/behavior-editor/managing-behaviors/preset-behavior) (like movement or interaction capabilities) are naturally dynamic. They can be manipulated or can interact during the game's runtime.
+- **Creating Dynamic Objects Without Inherent Behavior**: Sometimes, you might want an object to interact with the player even if it doesn’t have its own behavior scripted. For instance, you could set up a scenario where a [player](https://wiki.soba.xyz/behavior-editor/working-with-players/random-player) collides with an object to trigger an action. In these cases, making the object dynamic is essential, even though the behavior is coded on the player side, not the object.
 - **Necessity for Dynamic Setting**: Certain behaviors, especially those involving player-object interactions, require the object to be dynamic. Without this setting, these interactions won’t function as intended.
 
 ### **Performance Considerations**
