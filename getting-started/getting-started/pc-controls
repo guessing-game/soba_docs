@@ -1,0 +1,50 @@
+---
+title: 'What are the PC keyboard shortcuts?'
+description: 'Learn about the keyboard shortcuts that our PC version has'
+---
+
+    <p align="center">
+      <img width="400" noZoom src="https://i.imgur.com/RY5Wpav.png" /> 
+    </p>
+
+# Shortcuts
+Below you can find all shortcuts and key commands that make working with Soba’s desktop app easier and quicker.
+
+### Camera Controls
+|Action      |Windows                   |Mac             |Description                                                                           |
+|--------------|-----------------------------|------------------|--------------------------------------------------------------------------------------|
+|`Pan Forward`  |W  |W   |Pans the camera forward |
+|`Pan Left`  |A  | A  |Pans the camera to the left |
+|`Pan Backward` |S | S   |Pans the camera backward  |
+|`Pan Right` |D  |D |Pans the camera to the right  |
+|`Pan Down`|Q |Q |Pans the camera downward  |
+|`Pan Up`|E |E |Pans the camera upward  |
+|`Increase Camera Speed` |LShift  |⇧  |Hold down the left shift key to pan the camera faster.|
+|`Changing Camera Orientation` |RMB + Mouse |RMB + Mouse  |Hold down right mouse button while moving the mouse to change the camera orientation.|
+|`Zoom In` |Mouse Wheel Scroll Up   |Mouse Wheel Scroll Up |Scroll the mouse wheel up to zoom in. |
+|`Zoom Out` |Mouse Wheel Scroll Down |Mouse Wheel Scroll Down |Scroll the mouse wheel down to zoom out.|  
+
+### Selecting and Editing
+|Action      |Windows                   |Mac             |Description                                                                           |
+|--------------|-----------------------------|------------------|--------------------------------------------------------------------------------------|
+|`Duplicate`  |Backspace or Delete  |⌘ + D   |Duplicates an object. |
+|`Delete`  |Backspace or Delete  | Backspace or Delete  |Deletes an object. |
+|`Enable Multi Selection` |LShift | ⇧   |Hold down left shift to add or remove objects from selection.  |
+|`Group/Ungroup` |Ctrl + G  |⌘ + G |Creates and dissolves groups of objects.  |
+|`Undo`|Ctrl + Z |⌘ + Z |Undoes the last editing step.  |
+|`Redo`|LShift + Ctrl + Z |⇧ + ⌘ + Z |Redoes the last editing step.  |
+|`Unsnap From Grid` |LShift + transform  |⇧ + transform  |Hold down shift while moving, scaling or rotating an object to unsnap it from the grid.|
+|`Toggle Object Details` |Space |Space |Use space key to show or hide the object details.|
+|`Copy Behaviors` |Ctrl + C + Hover on Behavior   |⌘ + C +  Hover on Behavior |Use the shortcut and hover the mouse over the behavior in the object details to copy it. |
+|`Paste Behaviors` |Ctrl + V + Hover on Behavior |⌘  + V + Hover on Behavior |Use the shortcut while object details are open to paste a behavior.|
+|`Delete Behaviors`  |Backspace or Delete + Hover on Behavior  |Backspace or Delete + Hover on Behavior   |Use the shortcut and hover the mouse over the behavior in the object details to delete it. |
+|`Deselect, Close View, Open Menu`  |Esc  |Esc   |Escape button has multiple functions depending on the current context: deselect; close view; open menu. |
+
+<Note> ### Known issues
+- At this point we’re not optimising a lot of the UI, we might do this at some later point
+- The mouse sensitivity might be very high or low depending on your hardware settings (DPI). This will soon be configurable.
+- Audio volume will soon be configurable
+- To avoid losing progress avoid opening a project on both computer and phone at the same time
+- If you modified a game on one device and plan to continue working on another device later, make sure that the device with the changes is able to connect to the internet before switching to the other device, so changes can be uploaded to our cloud. Your other device will then download the changes when the app starts.
+- On Windows, you can quit Soba using Alt + F4
+- Behaviors can only be copied and pasted within the same game</Note>
