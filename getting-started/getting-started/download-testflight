@@ -1,0 +1,22 @@
+---
+title: 'iOS Download Outside of UK/CA/DE'
+description: ''
+---
+
+Currently, our app isn't available on the App Store in regions outside **the UK, Germany, and Canada**. But don't worry, you can still get early access to our app through a few simple steps:
+
+1. **Install TestFlight:** Begin by downloading [TestFlight](https://apps.apple.com/us/app/testflight/id899247664) from Apple. This is Apple's official app for beta testing. Our app, Soba, is available for beta testing through TestFlight.
+
+
+2. **Join the Soba Beta:** After installing TestFlight, use this [link](https://testflight.apple.com/join/PJAJGNJP) to become a beta tester for Soba. Welcome aboard!
+
+
+<CardGroup cols={2}>
+    <Card title="Get TestFlight" icon="download" href="https://apps.apple.com/us/app/testflight/id899247664">
+    Download TestFlight App
+  </Card>
+    <Card title="Join Soba" icon="play" href="https://testflight.apple.com/join/PJAJGNJP">
+    Join Soba's Beta Test
+  </Card>
+
+</CardGroup>
