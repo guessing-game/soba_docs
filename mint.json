@@ -11,6 +11,7 @@
   },
   "backgroundImage": "/images/phone_background.png",
   "favicon": "/favicon_new.svg",
+
   "colors": {
     "primary": "#FF6553",
     "light": "#FF855F",
@@ -53,6 +54,7 @@
                 "pages": ["getting-started/getting-started/what-is-soba",
                 "getting-started/getting-started/quick-start",
                 "getting-started/getting-started/download",
+                "getting-started/getting-started/download-testflight",
                 "getting-started/getting-started/multi-platform",
                 "getting-started/getting-started/offline",
                 "getting-started/getting-started/co-creation",
